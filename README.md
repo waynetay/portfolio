@@ -29,4 +29,4 @@ i made a project that reads CSV files and allows teachers to monitor studets gra
 
 2. Kamen Rider OOO Belt [Scratch Link](https://scratch.mit.edu/projects/846486191/fullscreen/)
 
-a simple scratch game that recognises patterns from the TV show. This game features the kamen rider belt that the character uses to transform
+a simple scratch game that recognises patterns from the TV show. This game features the kamen rider belt that the character uses to transform for the game i used the models from someone else but the code itself is all mine so credits to [Dylandaray](https://scratch.mit.edu/users/Dylandaray/) of scratch for providing the models so my game pops up when you click his link
