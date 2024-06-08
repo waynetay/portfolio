@@ -1,5 +1,18 @@
 # Programmer
-Hello I am an 11 year old programmer that started off with Scratch when i was 9
+Hello I am an 11 year old programmer that started off with Scratch when i was 9 and moved on to Python on June 2022 so far in Python I have learnt
+1.The Basics
+2.Variables
+3.Conditional Statements
+4.Loops
+5.Problem Solving
+6.Lists
+7.Functions
+8.Modules
+9.Search Algorithms
+10.Intermediate Problem Solving
+11.Sorting Algorithms
+12.Input Parsing
+14.Advanced Python Techniques
 # Stuff that i did
 1. i finished a Hackathon and got full marks
 2. i made a project
