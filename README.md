@@ -9,7 +9,7 @@ Hello I am an 11 year old programmer that started off with Scratch when i was 9 
 7. Functions
 8. Modules
 9. Search Algorithms
-10. 10. Intermediate Problem Solving
+10. Intermediate Problem Solving
 11. Sorting Algorithms
 12. Input Parsing
 14. Advanced Python Techniques
