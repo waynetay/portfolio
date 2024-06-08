@@ -1,5 +1,5 @@
 # Programmer
-Hello I am an 11 year old programmer that started off with Scratch when i was 9 and moved on to Python on June 2022 so far in Python I have learnt
+Hello I am an 11 year old programmer that started off with Scratch when i was 9 and moved on to Python on June 2022 so far in Python I have learnt:
 1. The Basics
 2. Variables
 3. Conditional Statements
