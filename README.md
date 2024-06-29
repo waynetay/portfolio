@@ -14,7 +14,8 @@ Hello I am an 11 year old programmer that started off with Scratch when i was 9 
 11. Sorting Algorithms
 12. Input Parsing
 14. Advanced Python Techniques
-
+15. Graphs
+16. Classes
 # Stuff that i did
 
 1. I finished a Hackathon and got full marks
