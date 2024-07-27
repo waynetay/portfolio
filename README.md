@@ -7,6 +7,24 @@ My interest in programming began when I discovered a block-based game engine nam
 
 # Achievements
 
+## Teakwondo
+
+[Teakwondo Certificate](https://drive.google.com/file/d/1F4Jrqddo1XEp6kBksI6pMsvIzaTxAKm7/view?usp=sharing)
+
+   Singapore Teakwondo Federation Poom 1 belt awarded on 18 April 2021
+
+## Edusave and Education Merit Awards
+
+[Edusave 2021](https://drive.google.com/file/d/13v4U1EePJa2iz3OSBa3FEcC_AtVcz4ez/view?usp=sharing)
+
+[Edusave 2022](https://drive.google.com/file/d/1wORXn-IGtX-5c9DnIYzqm9u74HWrUszf/view?usp=sharing)
+
+[Education Merit 2022](https://drive.google.com/file/d/1cCqGZaIMWQMYWtb4rDKcsaGLWLpfqPga/view?usp=sharing)
+
+[Edusave 2023](https://drive.google.com/file/d/18zNMwwIXhKTkP1U0Sht0a6X8qY7iA0Kh/view?usp=sharing)
+
+[Edusave Merit 2023](https://drive.google.com/file/d/1sm-piSqrv3Rb-sqzw69u9snZO7M7Mi7M/view?usp=sharing)
+   
 ## Python Hackathon
    The Hackathon focuses on overcoming challenges involving crucial programming concepts such as conditional statements, loops, lists, functions, list comprehension, dictionaries, as well as search and sorting algorithms. Participants are challenged with leveraging these fundamental topics to devise innovative solutions and showcase their problem-solving skills effectively.
 
