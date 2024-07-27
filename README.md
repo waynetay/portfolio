@@ -23,7 +23,7 @@ This course focused on Lists, Functions, Modules, Search Algorithms, Intermediat
 
 ### Completed course Python Advanced
 
-Python Advanced Certificate
+[Python Advanced Certificate](https://drive.google.com/file/d/1dQt8kFBQD5luMZRsqgFJK-VYazzBxrWb/view?usp=sharing)
 
 This course was more focused on algorithms like sorting and searching algorithms, input parsing and advanced techniques related to lists, functions and dictionaries.
 # Project
