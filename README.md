@@ -9,16 +9,20 @@ Hello my name is Wayne Tay and I am from 6 Curie of Palm View Primary School. I 
    The Hackathon focuses on overcoming challenges involving crucial programming concepts such as conditional statements, loops, lists, functions, list comprehension, dictionaries, as well as search and sorting algorithms. Participants are challenged with leveraging these fundamental topics to devise innovative solutions and showcase their problem-solving skills effectively.
 
 ## Python Course
-   Completed course Python Basic
+### Completed course Python Basic
+
 Python Basic Certificate
 
 This course focused on Basics of programming, Variables, Conditional statements, Loops, Basic problem solving skills
-Completed course Python Intermediate
+
+### Completed course Python Intermediate
 
 Python Intermediate Certificate
 
 This course focused on Lists, Functions, Modules, Search Algorithms, Intermediate problem solving skills
-Completed course Python Advanced
+
+###Completed course Python Advanced
+
 Python Advanced Certificate
 
 This course was more focused on algorithms like sorting and searching algorithms, input parsing and advanced techniques related to lists, functions and dictionaries.
