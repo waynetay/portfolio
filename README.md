@@ -21,7 +21,7 @@ Python Intermediate Certificate
 
 This course focused on Lists, Functions, Modules, Search Algorithms, Intermediate problem solving skills
 
-###Completed course Python Advanced
+### Completed course Python Advanced
 
 Python Advanced Certificate
 
