@@ -11,13 +11,13 @@ Hello my name is Wayne Tay and I am from 6 Curie of Palm View Primary School. I 
 ## Python Course
 ### Completed course Python Basic
 
-Python Basic Certificate
+[Python Basic Certificate](https://drive.google.com/file/d/1dGVgOLhJNbmEaooJqr7THHNGReKWevQV/view?usp=sharing)
 
 This course focused on Basics of programming, Variables, Conditional statements, Loops, Basic problem solving skills
 
 ### Completed course Python Intermediate
 
-Python Intermediate Certificate
+[Python Intermediate Certificate](https://drive.google.com/file/d/1WwniuBjwVl92bOIZeUX6wWhrB4E1rayP/view?usp=sharing)
 
 This course focused on Lists, Functions, Modules, Search Algorithms, Intermediate problem solving skills
 
