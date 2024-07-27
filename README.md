@@ -15,15 +15,15 @@ My interest in programming began when I discovered a block-based game engine nam
 
 ## Edusave and Education Merit Awards
 
-[Edusave 2021](https://drive.google.com/file/d/13v4U1EePJa2iz3OSBa3FEcC_AtVcz4ez/view?usp=sharing)
+[Edusave Certificate of Academic Achievement 2021](https://drive.google.com/file/d/13v4U1EePJa2iz3OSBa3FEcC_AtVcz4ez/view?usp=sharing)
 
-[Edusave 2022](https://drive.google.com/file/d/1wORXn-IGtX-5c9DnIYzqm9u74HWrUszf/view?usp=sharing)
+[Edusave Certificate of Academic Achievement 2022](https://drive.google.com/file/d/1wORXn-IGtX-5c9DnIYzqm9u74HWrUszf/view?usp=sharing)
 
 [Education Merit 2022](https://drive.google.com/file/d/1cCqGZaIMWQMYWtb4rDKcsaGLWLpfqPga/view?usp=sharing)
 
-[Edusave 2023](https://drive.google.com/file/d/18zNMwwIXhKTkP1U0Sht0a6X8qY7iA0Kh/view?usp=sharing)
+[Edusave Certificate of Academic Achievement 2023](https://drive.google.com/file/d/18zNMwwIXhKTkP1U0Sht0a6X8qY7iA0Kh/view?usp=sharing)
 
-[Edusave Merit 2023](https://drive.google.com/file/d/1sm-piSqrv3Rb-sqzw69u9snZO7M7Mi7M/view?usp=sharing)
+[Edusave Merit Bursary 2023](https://drive.google.com/file/d/1sm-piSqrv3Rb-sqzw69u9snZO7M7Mi7M/view?usp=sharing)
    
 ## Python Hackathon
    The Hackathon focuses on overcoming challenges involving crucial programming concepts such as conditional statements, loops, lists, functions, list comprehension, dictionaries, as well as search and sorting algorithms. Participants are challenged with leveraging these fundamental topics to devise innovative solutions and showcase their problem-solving skills effectively.
