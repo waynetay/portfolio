@@ -1,9 +1,9 @@
 # Programmer
 ## About me
 
-Hello, my name is Wayne Tay, and I am from S1-05. I am a dedicated student pursuing my passion for computer science and programming. I believe that programming and AI will soon shape the future of our lives, serving as invaluable tools to streamline tedious tasks and provide the precision needed to accomplish complex goals. I aspire to make a significant impact on the world by leveraging computer science in my journey.
+Hello, my name is Wayne Tay, and I am from S1-05. I am a dedicated student pursuing my passion for computer science and programming. I believe that programming and AI will soon shape the future of our lives, serving as invaluable tools to streamline tedious tasks to accomplish complex goals. I aspire to make a significant impact on the world by leveraging computer science in my journey.
 
-My interest in programming began when I discovered a block-based game engine named “Scratch” at the age of nine during a CCA trial for robotics. Although I ultimately chose basketball, I continued to nurture my interest in computing and transitioned to Python in mid-June 2022. Through this experience, I realized how computer science and AI can contribute to making the world a better place. This realization has fueled my desire to pursue this passion and use technology to benefit everyone.
+My interest in programming began when I discovered a block-based game engine named Scratch at the age of nine during a CCA trial for robotics. Although I ultimately chose basketball, I continued to nurture my interest in computing and transitioned to Python in mid-June 2022. Through this experience, I realized how computer science and AI can contribute to making the world a better place. This realization has fueled my desire to pursue this passion and use technology to benefit everyone.
 
 # Achievements
 
@@ -27,6 +27,10 @@ My interest in programming began when I discovered a block-based game engine nam
    
 ## Python Hackathon
    The Hackathon focuses on overcoming challenges involving crucial programming concepts such as conditional statements, loops, lists, functions, list comprehension, dictionaries, as well as search and sorting algorithms. Participants are challenged with leveraging these fundamental topics to devise innovative solutions and showcase their problem-solving skills effectively.
+
+## Google Applied Digital Skills
+
+[Applied Digital Skills Certificates](https://drive.google.com/drive/folders/1mqsUeLbupJW3bIGpuwfIankx0mz0M8g2?usp=drive_link)
 
 ## Python Course
 ### Completed course Python Basic
