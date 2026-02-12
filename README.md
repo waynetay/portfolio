@@ -1,7 +1,7 @@
 # Programmer
 ## About me
 
-Hello, my name is Wayne Tay, and I am from S2-05 of SST (School of Science and Technology). I am a dedicated student pursuing my passion for computer science and programming. I believe that programming and AI will soon shape the future of our lives, serving as invaluable tools to streamline tedious tasks to accomplish complex goals. I aspire to make a significant impact on the world by leveraging computer science in my journey.
+Hello, my name is Wayne Tay, and I am from S2-05 of SST (School of Science and Technology) and a employee. I am a dedicated student pursuing my passion for computer science and programming. I believe that programming and AI will soon shape the future of our lives, serving as invaluable tools to streamline tedious tasks to accomplish complex goals. I aspire to make a significant impact on the world by leveraging computer science in my journey.
 
 My interest in programming began when I discovered a block-based game engine named Scratch at the age of nine during a CCA trial for robotics. Although I ultimately chose basketball, I continued to nurture my interest in computing and transitioned to Python in mid-June 2022. Through this experience, I realized how computer science and AI can contribute to making the world a better place. This realization has fueled my desire to pursue this passion and use technology to benefit everyone.
 
@@ -52,7 +52,27 @@ This course focused on Lists, Functions, Modules, Search Algorithms, Intermediat
 This course was more focused on algorithms like sorting and searching algorithms, input parsing and advanced techniques related to lists, functions and dictionaries.
 # Project
 
+### *WIP* TAVA x thegoodcompany project
+
+[TAVAttendance](https://github.com/thegoodcompany-sst)
+
+This project that was started by me and 3 others is aimed to help the non-profit organisation, TAVA, with thier logistics.
+
+## SST Inc.
+
+[SST Inc.](https://www.sstinc.org)
+
+I have participated in SST Inc. for 2 years and counting and through my experience in SST Inc. I have learnt both basic and advanced Swift programming and basic Kotlin programming
+
+## ARC@SST
+
+[ARC@SST](https://www.sst.edu.sg/applied-research-club-arc-sst/)
+
+I joined ARC@SST as a first batch and had participated in many activities such as GALESS and helped with Open House, CCA Fair and various service activities
+
 ## School Management Project [Github Link](https://github.com/Wayne005/Student-Management-Project)
 
 I made a project that reads CSV files and allows teachers to monitor students grades and see the average grade for each student, the average grade of all students in a course, the average grade of all courses for a student, the grades a student got and the AL or alphabet scoring converter.
+
+
 
