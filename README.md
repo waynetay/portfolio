@@ -80,7 +80,7 @@ This project that was started by me and 3 others is aimed to help the non-profit
 
 [SST Inc.](https://www.sstinc.org)
 
-Participated in SST Inc. for 2 years and counting and through my experience in SST Inc. I have learnt both basic and advanced Swift programming and basic Kotlin programming. Got selected for
+Participated in SST Inc. for 2 years and counting and through my experience in SST Inc. I have learnt both basic and advanced Swift programming and basic Kotlin programming. Got selected to go to San Francisco for my Project SERVE, a initiative to build apps to help non profit organisations that help people in need.
 
 ## ARC@SST
 
