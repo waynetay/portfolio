@@ -4,6 +4,7 @@
 Hello, my name is Wayne Tay,
 
 Things about me:
+
 Passionate programmer of 5 years and counting.
 
 Teakwondo Poom 1.
