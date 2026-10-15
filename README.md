@@ -5,13 +5,21 @@ Hello, my name is Wayne Tay,
 
 Things about me:
 Passionate programmer of 5 years and counting.
+
 Teakwondo Poom 1.
+
 Advanced Python Programmer.
+
 Placed Bronze 33 in the International Junior Cybersecurity Olympiad. 
+
 Member of SST INC.
+
 Created an app focused on helping a non profit organisation that provides free tuition services.
+
 Project SF Nomine.
+
 Experience in Applied Research field.
+
 Participated in Tan Kah Kee Young Inventors.
 
 # Achievements
