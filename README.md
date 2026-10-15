@@ -1,9 +1,18 @@
 # Programmer
 ## About me
 
-Hello, my name is Wayne Tay, and I am from S2-05 of SST (School of Science and Technology) and a SST Inc. employee. I am a dedicated student pursuing my passion for computer science and programming. I believe that programming and AI will soon shape the future of our lives, serving as invaluable tools to streamline tedious tasks to accomplish complex goals. I aspire to make a significant impact on the world by leveraging computer science in my journey.
+Hello, my name is Wayne Tay,
 
-My interest in programming began when I discovered a block-based game engine named Scratch at the age of nine during a CCA trial for robotics. Although I ultimately chose basketball, I continued to nurture my interest in computing and transitioned to Python in mid-June 2022. Through this experience, I realized how computer science and AI can contribute to making the world a better place. This realization has fueled my desire to pursue this passion and use technology to benefit everyone.
+Things about me:
+Passionate programmer of 5 years and counting.
+Teakwondo Poom 1.
+Advanced Python Programmer.
+Placed Bronze 33 in the International Junior Cybersecurity Olympiad. 
+Member of SST INC.
+Created an app focused on helping a non profit organisation that provides free tuition services.
+Project SF Nomine.
+Experience in Applied Research field.
+Participated in Tan Kah Kee Young Inventors.
 
 # Achievements
 
@@ -62,17 +71,17 @@ This project that was started by me and 3 others is aimed to help the non-profit
 
 [SST Inc.](https://www.sstinc.org)
 
-I have participated in SST Inc. for 2 years and counting and through my experience in SST Inc. I have learnt both basic and advanced Swift programming and basic Kotlin programming
+Participated in SST Inc. for 2 years and counting and through my experience in SST Inc. I have learnt both basic and advanced Swift programming and basic Kotlin programming. Got selected for
 
 ## ARC@SST
 
 [ARC@SST](https://www.sst.edu.sg/applied-research-club-arc-sst/)
 
-I joined ARC@SST as a first batch and had participated in many activities such as GALESS and helped with Open House, CCA Fair and various service activities
+Joined ARC@SST as the first batch and had participated in many activities such as GALESS and helped with Open House, CCA Fair and various service activities
 
 ## School Management Project [Github Link](https://github.com/Wayne005/Student-Management-Project)
 
-I made a project that reads CSV files and allows teachers to monitor students grades and see the average grade for each student, the average grade of all students in a course, the average grade of all courses for a student, the grades a student got and the AL or alphabet scoring converter.
+A project that reads CSV files and allows teachers to monitor students grades and see the average grade for each student, the average grade of all students in a course, the average grade of all courses for a student, the grades a student got and the AL or alphabet scoring converter.
 
 
 
