@@ -18,7 +18,7 @@ A collaborative project developed with three other team members to support TAVA,
 - Focuses on developing practical software solutions for a real-world organisation.
 - Part of an initiative to use technology to support community service.
 
-**Repository:** [TAVA × The Good Company](https://github.com/thegoodcompany-sst)
+**Repository:** [TAVA × thegoodcompany](https://github.com/thegoodcompany-sst)
 
 ### Student Management System
 
@@ -47,7 +47,7 @@ A member for two years and counting, gaining experience in mobile application de
 
 - Developed skills in Swift, including advanced programming concepts.
 - Gained foundational experience with Kotlin.
-- Selected to participate in **Project SERVE in San Francisco**, an initiative focused on building applications for nonprofit organisations serving people in need.
+- Selected to participate in **Project SF in San Francisco**, part of an initiative focused on building applications for nonprofit organisations serving people in need.
 
 ### ARC@SST — Applied Research Club
 
@@ -98,7 +98,7 @@ A member of the first batch of ARC@SST, participating in applied research and sc
 
 ### Python Programming
 
-Completed three levels of Python programming courses.
+Completed three Python programming courses.
 
 - **[Python Basic Certificate](https://drive.google.com/file/d/1dGVgOLhJNbmEaooJqr7THHNGReKWevQV/view?usp=sharing):** Variables, conditional statements, loops, and fundamental problem-solving skills.
 - **[Python Intermediate Certificate](https://drive.google.com/file/d/1WwniuBjwVl92bOIZeUX6wWhrB4E1rayP/view?usp=sharing):** Lists, functions, modules, search algorithms, and intermediate problem-solving.
