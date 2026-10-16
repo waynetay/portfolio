@@ -1,40 +1,16 @@
 
-theme: jekyll-theme-chirpy
-
-lang: en
-timezone: Asia/Singapore
-
-title: Wayne Tay
-tagline: Programmer | Cybersecurity Enthusiast
+title: "Wayne Tay | Developer Portfolio"
+logo: 
 description: >-
-  My programming portfolio featuring software projects,
-  cybersecurity, and applied research.
-
-url: "https://wayne005.github.io"
-baseurl: ""
-
-
-social:
-  name: Wayne Tay
-  links:
-    - https://github.com/Wayne005
-
+  Student developer passionate about Python, cybersecurity,
+  software development, and applied research.
+show_downloads: false
+theme: jekyll-theme-minimal
 theme_mode: dark
+# Site settings
+author: "Wayne Tay"
+lang: en-SG
 
-avatar:
-```
-
-The `theme_mode: dark` setting selects dark mode by default. Chirpy also supports a theme toggle. <Cite refs={["turn584770search1"]}/>
-
-## Step 3: Turn it into your portfolio
-
-Chirpy is designed primarily for technical writing, so I'd use its navigation tabs to organise your work:
-
-- **Home** — short introduction and featured projects.
-- **Projects** — TAVAttendance and Student Management System.
-- **Achievements** — cybersecurity, academic awards, and Taekwondo.
-- **About** — SST Inc., ARC@SST, and your technical skills.
-
-You can use Chirpy's built-in pages and navigation rather than creating a custom design from scratch.
-
-One last thing: the configuration above assumes your site URL will be `wayne005.github.io`. If your current site uses a different URL, update `url` and `baseurl` accordingly.
+# Navigation and repository settings
+github:
+  is_project_page: false
