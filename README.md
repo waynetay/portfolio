@@ -92,8 +92,6 @@ A member of the first batch of ARC@SST, participating in applied research and sc
 | Python | Basic to advanced programming, algorithms, data processing and problem-solving |
 | Swift | Mobile application development |
 | Kotlin | Foundational programming experience |
-| Algorithms | Searching, sorting, and data manipulation |
-| Data Processing | CSV files, lists, dictionaries, and functions |
 | Cybersecurity | Participation in an international junior cybersecurity competition |
 | Applied Research | Research activities and young inventors' competitions |
 
