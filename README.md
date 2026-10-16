@@ -1,6 +1,3 @@
-# Wayne Tay
-
-### Programmer | Python Developer 
 
 I'm a student developer with **5 years of programming experience** and an interest in software development, cybersecurity, and applied research. I enjoy using technology to solve real-world problems, especially through projects that support the community.
 
