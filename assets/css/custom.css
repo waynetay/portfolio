@@ -7,9 +7,9 @@
   --border: #252332;
   --text: #e8e6ef;
   --muted: #a6a2b5;
-  --accent: #7c3aed;
-  --accent-hover: #a78bfa;
-  --accent-soft: rgba(124, 58, 237, 0.14);
+  --accent: #7b49ff;
+  --accent-hover: #b69aff;
+  --accent-soft: rgba(123, 73, 255, 0.14);
 }
 
 html {
@@ -30,6 +30,9 @@ body {
 }
 
 #header {
+  /* Override the Midnight theme's original header/nav colours. */
+  background-color: var(--page) !important;
+  background-image: none !important;
   background: rgba(8, 8, 12, 0.94) !important;
   background-image: none !important;
   border-bottom: 1px solid var(--border);
@@ -39,6 +42,12 @@ body {
   z-index: 10;
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
+}
+
+#header nav {
+  background: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
 }
 
 #header nav ul {
@@ -225,7 +234,7 @@ img {
 }
 
 ::selection {
-  background: rgba(124, 58, 237, 0.35);
+  background: rgba(123, 73, 255, 0.35);
   color: #fff;
 }
 
