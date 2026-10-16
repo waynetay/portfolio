@@ -1,3 +1,16 @@
-title: Wayne Tay
+
+title: "Wayne Tay | Developer Portfolio"
+logo: 
+description: >-
+  Student developer passionate about Python, cybersecurity,
+  software development, and applied research.
 show_downloads: false
 theme: jekyll-theme-minimal
+
+# Site settings
+author: "Wayne Tay"
+lang: en-SG
+
+# Navigation and repository settings
+github:
+  is_project_page: false
