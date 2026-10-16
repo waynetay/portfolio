@@ -1,96 +1,128 @@
-# Programmer
-## About me
+# Wayne Tay
 
-Hello, my name is Wayne Tay,
+### Programmer | Python Developer | Cybersecurity Enthusiast
 
-Things about me:
+I'm a student developer with **5 years of programming experience** and an interest in software development, cybersecurity, and applied research. I enjoy using technology to solve real-world problems, especially through projects that support the community.
 
-Passionate programmer of 5 years and counting.
+- **Programming:** Python, Swift, and Kotlin
+- **Cybersecurity:** Bronze 33 placement in the International Junior Cybersecurity Olympiad
+- **Research:** Experience in applied research and participation in the Tan Kah Kee Young Inventors' Award
+- **Involvement:** SST Inc. and ARC@SST
 
-Teakwondo Poom 1.
+---
 
-Advanced Python Programmer.
+## Featured Projects
 
-Placed Bronze 33 in the International Junior Cybersecurity Olympiad. 
+### TAVAttendance — TAVA × The Good Company
 
-Member of SST INC.
+**Technologies:** Swift 
+A collaborative project developed with three other team members to support TAVA, a nonprofit organisation, with its logistical needs.
 
-Created an app focused on helping a non profit organisation that provides free tuition services.
+- Focuses on developing practical software solutions for a real-world organisation.
+- Part of an initiative to use technology to support community service.
 
-Project SF Nomine.
+**Repository:** [TAVA × The Good Company](https://github.com/thegoodcompany-sst)
 
-Experience in Applied Research field.
+### Student Management System
 
-Participated in Tan Kah Kee Young Inventors.
+**Technologies:** Python, CSV
 
-# Achievements
+A student grade management application designed to help teachers analyse student performance and manage academic results.
 
-## Teakwondo
+**Features include:**
+- Reading and processing student data from CSV files.
+- Calculating individual students' average grades.
+- Calculating average grades across courses.
+- Retrieving a student's grades.
+- Converting scores into Achievement Levels (AL) or alphabet grades.
 
-[Teakwondo Certificate](https://drive.google.com/file/d/1F4Jrqddo1XEp6kBksI6pMsvIzaTxAKm7/view?usp=sharing)
+**Repository:** [View on GitHub](https://github.com/Wayne005/Student-Management-Project)
 
-   Singapore Teakwondo Federation Poom 1 belt awarded on 18 April 2021
+---
 
-## Edusave and Education Merit Awards
+## Experience and Involvement
 
-[Edusave Certificate of Academic Achievement 2021](https://drive.google.com/file/d/13v4U1EePJa2iz3OSBa3FEcC_AtVcz4ez/view?usp=sharing)
+### SST Inc.
 
-[Edusave Certificate of Academic Achievement 2022](https://drive.google.com/file/d/1wORXn-IGtX-5c9DnIYzqm9u74HWrUszf/view?usp=sharing)
+[Visit SST Inc.](https://www.sstinc.org)
 
-[Education Merit 2022](https://drive.google.com/file/d/1cCqGZaIMWQMYWtb4rDKcsaGLWLpfqPga/view?usp=sharing)
+A member for two years and counting, gaining experience in mobile application development.
 
-[Edusave Certificate of Academic Achievement 2023](https://drive.google.com/file/d/18zNMwwIXhKTkP1U0Sht0a6X8qY7iA0Kh/view?usp=sharing)
+- Developed skills in Swift, including advanced programming concepts.
+- Gained foundational experience with Kotlin.
+- Selected to participate in **Project SERVE in San Francisco**, an initiative focused on building applications for nonprofit organisations serving people in need.
 
-[Edusave Merit Bursary 2023](https://drive.google.com/file/d/1sm-piSqrv3Rb-sqzw69u9snZO7M7Mi7M/view?usp=sharing)
-   
-## Python Hackathon
-   The Hackathon focuses on overcoming challenges involving crucial programming concepts such as conditional statements, loops, lists, functions, list comprehension, dictionaries, as well as search and sorting algorithms. Participants are challenged with leveraging these fundamental topics to devise innovative solutions and showcase their problem-solving skills effectively.
+### ARC@SST — Applied Research Club
 
-## Google Applied Digital Skills
+[Visit ARC@SST](https://www.sst.edu.sg/applied-research-club-arc-sst/)
 
-[Applied Digital Skills Certificates](https://drive.google.com/drive/folders/1mqsUeLbupJW3bIGpuwfIankx0mz0M8g2?usp=drive_link)
+A member of the first batch of ARC@SST, participating in applied research and school activities.
 
-## Python Course
-### Completed course Python Basic
+- Participated in GALESS.
+- Supported school events, including Open House and CCA Fair.
+- Contributed to service activities.
 
-[Python Basic Certificate](https://drive.google.com/file/d/1dGVgOLhJNbmEaooJqr7THHNGReKWevQV/view?usp=sharing)
+---
 
-This course focused on Basics of programming, Variables, Conditional statements, Loops, Basic problem solving skills
+## Achievements
 
-### Completed course Python Intermediate
+### Cybersecurity
 
-[Python Intermediate Certificate](https://drive.google.com/file/d/1WwniuBjwVl92bOIZeUX6wWhrB4E1rayP/view?usp=sharing)
+- **International Junior Cybersecurity Olympiad:** Bronze 33 placement.
 
-This course focused on Lists, Functions, Modules, Search Algorithms, Intermediate problem solving skills
+### Taekwondo
 
-### Completed course Python Advanced
+- **Singapore Taekwondo Federation Poom 1:** Awarded on 18 April 2021.
+- [View Certificate](https://drive.google.com/file/d/1F4Jrqddo1XEp6kBksI6pMsvIzaTxAKm7/view?usp=sharing)
 
-[Python Advanced Certificate](https://drive.google.com/file/d/1dQt8kFBQD5luMZRsqgFJK-VYazzBxrWb/view?usp=sharing)
+### Academic Awards
 
-This course was more focused on algorithms like sorting and searching algorithms, input parsing and advanced techniques related to lists, functions and dictionaries.
-# Project
+- [Edusave Certificate of Academic Achievement 2021](https://drive.google.com/file/d/13v4U1EePJa2iz3OSBa3FEcC_AtVcz4ez/view?usp=sharing)
+- [Edusave Certificate of Academic Achievement 2022](https://drive.google.com/file/d/1wORXn-IGtX-5c9DnIYzqm9u74HWrUszf/view?usp=sharing)
+- [Education Merit Award 2022](https://drive.google.com/file/d/1cCqGZaIMWQMYWtb4rDKcsaGLWLpfqPga/view?usp=sharing)
+- [Edusave Certificate of Academic Achievement 2023](https://drive.google.com/file/d/18zNMwwIXhKTkP1U0Sht0a6X8qY7iA0Kh/view?usp=sharing)
+- [Edusave Merit Bursary 2023](https://drive.google.com/file/d/1sm-piSqrv3Rb-sqzw69u9snZO7M7Mi7M/view?usp=sharing)
 
-### *WIP* TAVA x thegoodcompany project
+---
 
-[TAVAttendance](https://github.com/thegoodcompany-sst)
+## Technical Skills
 
-This project that was started by me and 3 others is aimed to help the non-profit organisation, TAVA, with thier logistics.
+| Area | Experience |
+|---|---|
+| Python | Basic to advanced programming, algorithms, data processing and problem-solving |
+| Swift | Mobile application development |
+| Kotlin | Foundational programming experience |
+| Algorithms | Searching, sorting, and data manipulation |
+| Data Processing | CSV files, lists, dictionaries, and functions |
+| Cybersecurity | Participation in an international junior cybersecurity competition |
+| Applied Research | Research activities and young inventors' competitions |
 
-## SST Inc.
+---
 
-[SST Inc.](https://www.sstinc.org)
+## Courses and Certifications
 
-Participated in SST Inc. for 2 years and counting and through my experience in SST Inc. I have learnt both basic and advanced Swift programming and basic Kotlin programming. Got selected to go to San Francisco for my Project SERVE, a initiative to build apps to help non profit organisations that help people in need.
+### Python Programming
 
-## ARC@SST
+Completed three levels of Python programming courses.
 
-[ARC@SST](https://www.sst.edu.sg/applied-research-club-arc-sst/)
+- **[Python Basic Certificate](https://drive.google.com/file/d/1dGVgOLhJNbmEaooJqr7THHNGReKWevQV/view?usp=sharing):** Variables, conditional statements, loops, and fundamental problem-solving skills.
+- **[Python Intermediate Certificate](https://drive.google.com/file/d/1WwniuBjwVl92bOIZeUX6wWhrB4E1rayP/view?usp=sharing):** Lists, functions, modules, search algorithms, and intermediate problem-solving.
+- **[Python Advanced Certificate](https://drive.google.com/file/d/1dQt8kFBQD5luMZRsqgFJK-VYazzBxrWb/view?usp=sharing):** Searching and sorting algorithms, input parsing, and advanced techniques involving lists, functions, and dictionaries.
 
-Joined ARC@SST as the first batch and had participated in many activities such as GALESS and helped with Open House, CCA Fair and various service activities
+### Python Hackathon
 
-## School Management Project [Github Link](https://github.com/Wayne005/Student-Management-Project)
+Participated in a Python hackathon involving programming fundamentals, including conditional statements, loops, lists, functions, dictionaries, list comprehensions, and searching and sorting algorithms.
 
-A project that reads CSV files and allows teachers to monitor students grades and see the average grade for each student, the average grade of all students in a course, the average grade of all courses for a student, the grades a student got and the AL or alphabet scoring converter.
+### Google Applied Digital Skills
 
+[View Applied Digital Skills Certificates](https://drive.google.com/drive/folders/1mqsUeLbupJW3bIGpuwfIankx0mz0M8g2?usp=drive_link)
 
+---
 
+## Currently Learning
+
+I'm continuing to develop my programming skills through collaborative projects, applied research, and exploration of cybersecurity and software development.
+
+---
+
+Thank you for visiting my portfolio.
