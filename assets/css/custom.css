@@ -265,3 +265,9 @@ img {
 #header nav ul li.fork {
   display: none !important;
 }
+
+
+/* Remove the entire top navigation bar, not just its GitHub link. */
+#header {
+  display: none !important;
+}
