@@ -1,14 +1,5 @@
 
 title: "Wayne Tay"
-description: "Developer portfolio showcasing software projects, cybersecurity, and applied research."
-
-remote_theme: yousinix/portfolYOU
-
-plugins:
-  - jekyll-remote-theme
-
-author:
-  name: "Wayne Tay"
-  github: Wayne005
-
-lang: en-SG
+description: "Programmer | Python Developer | Cybersecurity Enthusiast"
+show_downloads: false
+theme: jekyll-theme-midnight
