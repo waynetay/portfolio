@@ -259,3 +259,9 @@ img {
     padding: 9px !important;
   }
 }
+
+
+/* Remove the unwanted "View On GitHub" bar from the fixed header. */
+#header nav ul li.fork {
+  display: none !important;
+}
