@@ -12,7 +12,8 @@ I'm a student developer with **5 years of programming experience** and an intere
 
 ### TAVAttendance — TAVA × thegoodcompany
 
-**Technologies:** Swift 
+**Language:** Swift 
+
 A collaborative project developed with three other team members to support TAVA, a nonprofit organisation, with its logistical needs.
 
 - Focuses on developing practical software solutions for a real-world organisation.
@@ -22,7 +23,7 @@ A collaborative project developed with three other team members to support TAVA,
 
 ### Student Management System
 
-**Technologies:** Python, CSV
+**Language:** Python, CSV
 
 A student grade management application designed to help teachers analyse student performance and manage academic results.
 
@@ -120,7 +121,6 @@ I'm continuing to develop my programming skills through collaborative projects, 
 
 ---
 
----
 
 ## Contact
 
