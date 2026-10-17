@@ -119,3 +119,11 @@ Participated in a Python hackathon involving programming fundamentals, including
 I'm continuing to develop my programming skills through collaborative projects, applied research, and exploration of cybersecurity and software development.
 
 ---
+
+---
+
+## Contact
+
+- **GitHub:** [@waynetay](https://github.com/waynetay)
+- **Personal Email:** [waynetay811@gmail.com](mailto:waynetay811@gmail.com)
+- **School Email:** [tay_an_zhi_wayne@ssts.edu.sg](mailto:tay_an_zhi_wayne@ssts.edu.sg)
