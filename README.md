@@ -37,7 +37,7 @@ quicknote is a minimalist native macOS notes app with two independent writing sp
 
 <div align="center">
   <img src="assets/images/Screenshot%202026-10-18%20at%2014.23.20.png" alt="quicknote interface" width="48%">
-  <img src="assets/images/Screenshot%202026-10-18%20at%2014.23.33.png" alt="quicknote quick note" width="48%">
+  <img src="assets/images/Screenshot%202026-10-18%20at%2014.23.33.png" alt="quicknote quick note" width="30%">
 </div>
 
 
