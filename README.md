@@ -30,6 +30,7 @@ A minimalist native macOS notes app built around two separate writing spaces: a 
 **Repository:** [View quicknote on GitHub](https://github.com/waynetay/quicknote)  
 **Download:** [Latest release](https://github.com/waynetay/macos-notes/releases/latest)
 
+---
 
 ### TAVAttendance — TAVA × thegoodcompany
 
@@ -41,6 +42,8 @@ A collaborative project developed with three other team members to support TAVA,
 - Part of an initiative to use technology to support community service.
 
 **Repository:** [TAVA × thegoodcompany](https://github.com/thegoodcompany-sst)
+
+---
 
 ### Student Management System
 
