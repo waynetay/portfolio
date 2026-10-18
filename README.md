@@ -140,8 +140,6 @@ Participated in a Python hackathon involving programming fundamentals, including
 
 I'm continuing to develop my programming skills through collaborative projects, applied research, and exploration of cybersecurity and software development.
 
----
-
 
 ## Contact
 
