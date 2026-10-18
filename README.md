@@ -10,6 +10,27 @@ I'm a student developer with **5 years of programming experience** and an intere
 
 ## Featured Projects
 
+### quicknote — Native macOS Notes App
+
+**Version:** v1.0  
+**Language:** Swift, SwiftUI  
+**Platform:** macOS 13 Ventura and later
+
+A minimalist native macOS notes app built around two separate writing spaces: a spacious notepad and a compact floating Quick Note. Designed with a dark, clean interface and Apple's Liquid Glass styling on macOS 26+, with a material-based fallback on macOS 13 and later.
+
+**Features include:**
+- **Liquid Glass interface:** native Liquid Glass styling on macOS 26+ with a compatible material fallback on older supported macOS versions.
+- **Floating Quick Note:** a compact note window designed to stay above other windows, including fullscreen Spaces, so you can jot things down while browsing or working.
+- **Separate writing spaces:** the main Notepad and Quick Note keep independent contents.
+- **Autosave and persistence:** both notes save locally and remain available after quitting and reopening the app.
+- **Offline-first and private:** notes stay on your Mac; they are not uploaded to GitHub or a remote server.
+- **Minimalist writing experience:** a spacious notepad with a simple “Start writing” placeholder and a compact quick-note control.
+- **Simple installation:** download the v1.0 installer ZIP, extract the DMG, and drag quicknote into Applications.
+
+**Repository:** [View quicknote on GitHub](https://github.com/waynetay/quicknote)  
+**Download:** [Latest release](https://github.com/waynetay/macos-notes/releases/latest)
+
+
 ### TAVAttendance — TAVA × thegoodcompany
 
 **Language:** Swift 
