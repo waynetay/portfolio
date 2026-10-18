@@ -12,7 +12,7 @@ I'm a student developer with **5 years of programming experience** and an intere
 
 ### quicknote — Native macOS Notes App
 
-<div align="center">
+<div align="left">
   <img src="assets/images/AppIcon.png" alt="quicknote app icon" width="112">
 </div>
 
