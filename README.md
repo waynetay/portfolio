@@ -80,7 +80,7 @@ A member for two years and counting, gaining experience in mobile application de
 
 A member of the first batch of ARC@SST, participating in applied research and school activities.
 
-- Participated in GALESS.
+- Helped to host GALESS 2026.
 - Supported school events, including Open House and CCA Fair.
 - Contributed to service activities.
 
