@@ -12,6 +12,10 @@ I'm a student developer with **5 years of programming experience** and an intere
 
 ### quicknote — Native macOS Notes App
 
+<div align="center">
+  <img src="assets/images/AppIcon.png" alt="quicknote app icon" width="112">
+</div>
+
 **Version:** v1.2  
 **Language:** Swift, SwiftUI  
 **Platform:** macOS 13 Ventura and later
@@ -29,18 +33,11 @@ quicknote is a minimalist native macOS notes app with two independent writing sp
 **Repository:** [View quicknote on GitHub](https://github.com/waynetay/quicknote)  
 **Portfolio:** [waynetay.github.io/portfolio](https://waynetay.github.io/portfolio/)
 
-<div align="center">
-  <img src="assets/images/AppIcon.png" alt="quicknote app icon" width="112">
-</div>
-
 #### Screenshots
 
 <div align="center">
   <img src="assets/images/Screenshot%202026-10-18%20at%2014.23.20.png" alt="quicknote interface" width="48%">
-  <img src="assets/images/Screenshot%202026-10-18%20at%2014.23.25.png" alt="quicknote notepad" width="48%">
   <img src="assets/images/Screenshot%202026-10-18%20at%2014.23.33.png" alt="quicknote quick note" width="48%">
-  <img src="assets/images/Screenshot%202026-10-18%20at%2014.25.31.png" alt="quicknote floating note" width="48%">
-  <img src="assets/images/Screenshot%202026-10-18%20at%2014.25.34.png" alt="quicknote app detail" width="48%">
 </div>
 
 
