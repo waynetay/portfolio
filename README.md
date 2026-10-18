@@ -12,7 +12,7 @@ I'm a student developer with **5 years of programming experience** and an intere
 
 ### quicknote — Native macOS Notes App
 
-**Version:** v1.2
+**Version:** v1.2.     
 **Language:** Swift, SwiftUI  
 **Platform:** macOS 13 Ventura and later
 
