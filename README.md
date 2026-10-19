@@ -11,7 +11,7 @@ I'm a student developer with **5 years of programming experience** and an intere
 ## Featured Projects
 
 A selection of projects I've built and contributed to.
-      ### quicknote — Native macOS Notes App
+### quicknote — Native macOS Notes App
 
 <div align="left">
   <img src="assets/images/AppIcon.png" alt="quicknote app icon" width="112">
@@ -42,7 +42,7 @@ quicknote is a minimalist native macOS notes app with two independent writing sp
 </div>
 
         
-      ### TAVAttendance — TAVA × thegoodcompany
+### TAVAttendance — TAVA × thegoodcompany
 
 **Language:** Swift 
 
@@ -53,7 +53,7 @@ A collaborative project developed with three other team members to support TAVA,
 
 **Repository:** [TAVA × thegoodcompany](https://github.com/thegoodcompany-sst)
         
-      ### Student Management System
+### Student Management System
 
 **Language:** Python, CSV
 
@@ -67,9 +67,6 @@ A student grade management application designed to help teachers analyse student
 - Converting scores into Achievement Levels (AL) or alphabet grades.
 
 **Repository:** [View on GitHub](https://github.com/Wayne005/Student-Management-Project)
-        
-    </div>
-
 
 ---
 
@@ -100,25 +97,22 @@ A member of the first batch of ARC@SST, participating in applied research and sc
 ## Achievements
 
 Milestones from cybersecurity, Taekwondo, and academic achievement.
-      ### Cybersecurity
+### Cybersecurity
 
 - **International Junior Cybersecurity Olympiad:** Bronze 33 placement.
         
-      ### Taekwondo
+### Taekwondo
 
 - **Singapore Taekwondo Federation Poom 1:** Awarded on 18 April 2021.
 - [View Certificate](https://drive.google.com/file/d/1F4Jrqddo1XEp6kBksI6pMsvIzaTxAKm7/view?usp=sharing)
         
-      ### Academic Awards
+### Academic Awards
 
 - [Edusave Certificate of Academic Achievement 2021](https://drive.google.com/file/d/13v4U1EePJa2iz3OSBa3FEcC_AtVcz4ez/view?usp=sharing)
 - [Edusave Certificate of Academic Achievement 2022](https://drive.google.com/file/d/1wORXn-IGtX-5c9DnIYzqm9u74HWrUszf/view?usp=sharing)
 - [Education Merit Award 2022](https://drive.google.com/file/d/1cCqGZaIMWQMYWtb4rDKcsaGLWLpfqPga/view?usp=sharing)
 - [Edusave Certificate of Academic Achievement 2023](https://drive.google.com/file/d/18zNMwwIXhKTkP1U0Sht0a6X8qY7iA0Kh/view?usp=sharing)
 - [Edusave Merit Bursary 2023](https://drive.google.com/file/d/1sm-piSqrv3Rb-sqzw69u9snZO7M7Mi7M/view?usp=sharing)
-        
-    </div>
-
 
 ---
 
