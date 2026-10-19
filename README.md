@@ -8,17 +8,10 @@ I'm a student developer with **5 years of programming experience** and an intere
 
 ---
 
-<div class="horizontal-deck" data-horizontal-deck aria-label="Featured projects">
-  <div class="horizontal-deck-sticky">
-    <div class="deck-section-heading">
-      <h2>Featured Projects</h2>
-      <p>A selection of projects I've built and contributed to. Scroll to move through each project.</p>
-    </div>
-    <div class="horizontal-deck-track">
-      <article class="horizontal-deck-card">
-        <div class="deck-card-inner">
+## Featured Projects
 
-### quicknote — Native macOS Notes App
+A selection of projects I've built and contributed to.
+      ### quicknote — Native macOS Notes App
 
 <div align="left">
   <img src="assets/images/AppIcon.png" alt="quicknote app icon" width="112">
@@ -48,12 +41,8 @@ quicknote is a minimalist native macOS notes app with two independent writing sp
   <img src="assets/images/Screenshot%202026-10-18%20at%2014.23.33.png" alt="quicknote quick note" width="30%">
 </div>
 
-        </div>
-      </article>
-      <article class="horizontal-deck-card">
-        <div class="deck-card-inner">
-
-### TAVAttendance — TAVA × thegoodcompany
+        
+      ### TAVAttendance — TAVA × thegoodcompany
 
 **Language:** Swift 
 
@@ -63,12 +52,8 @@ A collaborative project developed with three other team members to support TAVA,
 - Part of an initiative to use technology to support community service.
 
 **Repository:** [TAVA × thegoodcompany](https://github.com/thegoodcompany-sst)
-        </div>
-      </article>
-      <article class="horizontal-deck-card">
-        <div class="deck-card-inner">
-
-### Student Management System
+        
+      ### Student Management System
 
 **Language:** Python, CSV
 
@@ -82,16 +67,9 @@ A student grade management application designed to help teachers analyse student
 - Converting scores into Achievement Levels (AL) or alphabet grades.
 
 **Repository:** [View on GitHub](https://github.com/Wayne005/Student-Management-Project)
-        </div>
-      </article>
+        
     </div>
-    <div class="deck-controls" aria-label="Project slide controls">
-      <span class="deck-counter">01 / 03</span>
-      <div class="deck-progress" aria-hidden="true"><span></span></div>
-      <span class="deck-hint">Scroll to explore <span aria-hidden="true">↓</span></span>
-    </div>
-  </div>
-</div>
+
 
 ---
 
@@ -119,50 +97,28 @@ A member of the first batch of ARC@SST, participating in applied research and sc
 
 ---
 
-<div class="horizontal-deck" data-horizontal-deck aria-label="Achievements">
-  <div class="horizontal-deck-sticky">
-    <div class="deck-section-heading">
-      <h2>Achievements</h2>
-      <p>Milestones from cybersecurity, Taekwondo, and academic achievement.</p>
-    </div>
-    <div class="horizontal-deck-track">
-      <article class="horizontal-deck-card">
-        <div class="deck-card-inner">
+## Achievements
 
-### Cybersecurity
+Milestones from cybersecurity, Taekwondo, and academic achievement.
+      ### Cybersecurity
 
 - **International Junior Cybersecurity Olympiad:** Bronze 33 placement.
-        </div>
-      </article>
-      <article class="horizontal-deck-card">
-        <div class="deck-card-inner">
-
-### Taekwondo
+        
+      ### Taekwondo
 
 - **Singapore Taekwondo Federation Poom 1:** Awarded on 18 April 2021.
 - [View Certificate](https://drive.google.com/file/d/1F4Jrqddo1XEp6kBksI6pMsvIzaTxAKm7/view?usp=sharing)
-        </div>
-      </article>
-      <article class="horizontal-deck-card">
-        <div class="deck-card-inner">
-
-### Academic Awards
+        
+      ### Academic Awards
 
 - [Edusave Certificate of Academic Achievement 2021](https://drive.google.com/file/d/13v4U1EePJa2iz3OSBa3FEcC_AtVcz4ez/view?usp=sharing)
 - [Edusave Certificate of Academic Achievement 2022](https://drive.google.com/file/d/1wORXn-IGtX-5c9DnIYzqm9u74HWrUszf/view?usp=sharing)
 - [Education Merit Award 2022](https://drive.google.com/file/d/1cCqGZaIMWQMYWtb4rDKcsaGLWLpfqPga/view?usp=sharing)
 - [Edusave Certificate of Academic Achievement 2023](https://drive.google.com/file/d/18zNMwwIXhKTkP1U0Sht0a6X8qY7iA0Kh/view?usp=sharing)
 - [Edusave Merit Bursary 2023](https://drive.google.com/file/d/1sm-piSqrv3Rb-sqzw69u9snZO7M7Mi7M/view?usp=sharing)
-        </div>
-      </article>
+        
     </div>
-    <div class="deck-controls" aria-label="Achievement slide controls">
-      <span class="deck-counter">01 / 03</span>
-      <div class="deck-progress" aria-hidden="true"><span></span></div>
-      <span class="deck-hint">Scroll to explore <span aria-hidden="true">↓</span></span>
-    </div>
-  </div>
-</div>
+
 
 ---
 
