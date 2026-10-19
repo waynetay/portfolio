@@ -389,3 +389,49 @@ img {
 @media (prefers-reduced-motion: reduce) {
   .horizontal-deck-track { will-change: auto; }
 }
+
+
+/* Stable pinned horizontal decks: keep the section title and description visible. */
+.horizontal-deck {
+  height: calc(var(--deck-count) * 100svh);
+  margin: 28px 0 54px;
+}
+.horizontal-deck-sticky {
+  height: 100svh;
+  max-height: 100svh;
+  padding: clamp(12px, 2.5vh, 24px) 0 54px;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.deck-section-heading {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.deck-section-heading h2 {
+  margin: 0 0 8px !important;
+  padding-bottom: 10px !important;
+}
+.deck-section-heading p {
+  margin: 0 !important;
+  color: #fff;
+  line-height: 1.5;
+}
+.horizontal-deck-track {
+  flex: 1 1 auto;
+  height: auto;
+  min-height: 0;
+}
+.horizontal-deck-card {
+  height: 100%;
+}
+.deck-card-inner {
+  min-height: 100%;
+}
+@media (max-width: 640px) {
+  .horizontal-deck { height: calc(var(--deck-count) * 100svh); }
+  .horizontal-deck-sticky { height: 100svh; padding: 12px 0 50px; gap: 10px; }
+  .deck-section-heading h2 { font-size: 1.3rem !important; }
+  .deck-section-heading p { font-size: .9rem; }
+  .deck-card-inner { padding: 16px 14px; }
+  .deck-controls { bottom: 10px; }
+}
