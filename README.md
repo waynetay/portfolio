@@ -8,10 +8,12 @@ I'm a student developer with **5 years of programming experience** and an intere
 
 ---
 
-## Featured Projects
-
 <div class="horizontal-deck" data-horizontal-deck aria-label="Featured projects">
   <div class="horizontal-deck-sticky">
+    <div class="deck-section-heading">
+      <h2>Featured Projects</h2>
+      <p>A selection of projects I've built and contributed to. Scroll to move through each project.</p>
+    </div>
     <div class="horizontal-deck-track">
       <article class="horizontal-deck-card">
         <div class="deck-card-inner">
@@ -117,10 +119,12 @@ A member of the first batch of ARC@SST, participating in applied research and sc
 
 ---
 
-## Achievements
-
 <div class="horizontal-deck" data-horizontal-deck aria-label="Achievements">
   <div class="horizontal-deck-sticky">
+    <div class="deck-section-heading">
+      <h2>Achievements</h2>
+      <p>Milestones from cybersecurity, Taekwondo, and academic achievement.</p>
+    </div>
     <div class="horizontal-deck-track">
       <article class="horizontal-deck-card">
         <div class="deck-card-inner">
