@@ -1,4 +1,22 @@
 
+<section class="interactive-hero" aria-label="Interactive ASCII introduction">
+  <canvas aria-hidden="true"></canvas>
+  <div class="hero-content">
+    <span class="hero-kicker"><span class="status-dot"></span> DEVELOPER PORTFOLIO <span class="hero-separator">/</span> SINGAPORE</span>
+    <pre class="ascii-art" aria-label="ASCII wireframe orb">       .-=========-.
+    .-'  .:::::::.  '-.
+  .'   .::+#####+::.   '.
+ /    .:+#%@@@@@%#+:.    \\
+|    .:+#@%*+*%@%#+:.     |
+|    .:+#%@@@@@%#+:.     |
+ \\    .::+#####+::.    /
+  '.   ':::::::::'   .'
+    '-._________.-'</pre>
+    <p class="hero-caption">Curious by default. Building things that matter.</p>
+    <span class="hero-hint">MOVE YOUR CURSOR TO EXPLORE <span aria-hidden="true">↗</span></span>
+  </div>
+</section>
+
 I'm a student developer with **5 years of programming experience** and an interest in software development, cybersecurity, and applied research. I enjoy using technology to solve real-world problems, especially through projects that support the community.
 
 - **Programming:** Python, Swift, and Kotlin
@@ -175,3 +193,6 @@ I'm continuing to develop my programming skills through collaborative projects, 
 - **GitHub:** [@waynetay](https://github.com/waynetay)
 - **Personal Email:** [waynetay811@gmail.com](mailto:waynetay811@gmail.com)
 - **School Email:** [tay_an_zhi_wayne@ssts.edu.sg](mailto:tay_an_zhi_wayne@ssts.edu.sg)
+
+
+<script src="assets/js/portfolio.js" defer></script>
