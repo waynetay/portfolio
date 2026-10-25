@@ -694,3 +694,13 @@ img {
   .hero-content { padding: 32px 8px; }
 }
 @media (prefers-reduced-motion: reduce) { .portfolio-unlocked { animation: none; } }
+
+
+/* Keep the CTA label unchanged and grey it out after it has been used. */
+.hero-cta.is-used {
+  color: rgba(255,255,255,.45) !important;
+  border-color: rgba(255,255,255,.22);
+  background: transparent;
+}
+.hero-cta.is-used span { color: rgba(255,255,255,.4); }
+.hero-cta.is-used:hover { background: transparent; transform: none; }
