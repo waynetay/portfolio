@@ -3,7 +3,7 @@
   <div class="hero-content">
     <span class="hero-kicker"><span class="status-dot"></span> DEVELOPER PORTFOLIO <span class="hero-separator">/</span> SINGAPORE</span>
     <h1 class="hero-name">Wayne Tay</h1>
-    <p class="hero-title">Curious by default.<br><span>Building things that matter.</span></p>
+    <p class="hero-title">if you hate it now that its hard.<br><span>you only liked the fact it was easy.</span></p>
     <p class="hero-subtitle">Software · Cybersecurity · Applied Research</p>
     <a class="hero-cta" href="#featured-projects" aria-controls="portfolio-content">View my work <span aria-hidden="true">↘</span></a>
   </div>
