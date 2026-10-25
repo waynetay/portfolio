@@ -59,36 +59,30 @@
   window.addEventListener('resize', heroScrollFade, { passive: true });
   heroScrollFade();
 
-  // Keep the landing screen focused until the visitor explicitly opens the portfolio.
+  // Lock the complete portfolio container until the visitor explicitly opens it.
   const intro = document.querySelector('.interactive-hero');
-  if (intro) {
+  const portfolio = document.getElementById('portfolio-content');
+  if (intro && portfolio) {
     const cta = intro.querySelector('.hero-cta');
-    const contentNodes = [];
-    let node = intro.nextElementSibling;
-    while (node) {
-      if (node.tagName !== 'SCRIPT') {
-        contentNodes.push(node);
-        node.classList.add('portfolio-locked');
-        node.setAttribute('aria-hidden', 'true');
-      }
-      node = node.nextElementSibling;
-    }
+    portfolio.classList.add('portfolio-locked');
+    portfolio.setAttribute('aria-hidden', 'true');
     if (cta) {
+      cta.setAttribute('aria-controls', 'portfolio-content');
+      cta.setAttribute('aria-expanded', 'false');
       cta.addEventListener('click', (event) => {
         event.preventDefault();
-        contentNodes.forEach((el) => {
-          el.classList.remove('portfolio-locked');
-          el.classList.add('portfolio-unlocked');
-          el.removeAttribute('aria-hidden');
-        });
-        const target = document.getElementById('featured-projects');
-        if (target) {
-          window.setTimeout(() => target.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' }), 80);
-        } else if (contentNodes[0]) {
-          contentNodes[0].scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
-        }
+        portfolio.classList.remove('portfolio-locked');
+        portfolio.classList.add('portfolio-unlocked');
+        portfolio.removeAttribute('aria-hidden');
         cta.innerHTML = 'Portfolio unlocked <span aria-hidden="true">↘</span>';
         cta.setAttribute('aria-expanded', 'true');
+        const target = document.getElementById('featured-projects');
+        window.setTimeout(() => {
+          (target || portfolio).scrollIntoView({
+            behavior: reduceMotion ? 'auto' : 'smooth',
+            block: 'start'
+          });
+        }, 80);
       }, { once: true });
     }
   }
