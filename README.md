@@ -43,10 +43,9 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
   </article>
   <article class="project-card">
     <div class="project-card-heading">
-      <a class="tava-logo-wrap" href="https://www.tava.sg/" aria-label="Visit the official TAVA website">
-        <span class="tava-wordmark">TA<span class="tava-rainbow-v">V</span>A</span>
-        <span class="tava-tagline">BY TALENT BEACON</span>
-      </a>
+      <div class="tava-logo-wrap">
+        <img class="tava-logo" src="https://raw.githubusercontent.com/thegoodcompany-sst/TAVAttendance/main/web/public/tava-logo.png" alt="TAVA logo">
+      </div>
       <div>
         <h3>TAVAttendance — TAVA × thegoodcompany</h3>
         <p class="project-meta">SwiftUI · Kotlin · Next.js · Supabase · Collaborative project</p>
