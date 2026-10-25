@@ -36,6 +36,29 @@
     animateCursor();
   }
 
+  // Fade the supporting hero text as the hero leaves view; reverse naturally when scrolling back up.
+  const heroScrollFade = () => {
+    const hero = document.querySelector('.interactive-hero');
+    if (!hero) return;
+    const subtitle = hero.querySelector('.hero-subtitle');
+    const cta = hero.querySelector('.hero-cta');
+    if (!subtitle && !cta) return;
+    const rect = hero.getBoundingClientRect();
+    const fadeStart = Math.max(60, rect.height * 0.18);
+    const fadeEnd = rect.height * 0.82;
+    const progress = Math.min(1, Math.max(0, (fadeStart - rect.top) / Math.max(1, fadeEnd)));
+    const opacity = 1 - progress;
+    [subtitle, cta].forEach((el) => {
+      if (!el) return;
+      el.style.opacity = opacity.toFixed(3);
+      el.style.transform = 'translateY(' + (progress * -10).toFixed(1) + 'px)';
+      el.style.pointerEvents = opacity < 0.08 ? 'none' : '';
+    });
+  };
+  window.addEventListener('scroll', heroScrollFade, { passive: true });
+  window.addEventListener('resize', heroScrollFade, { passive: true });
+  heroScrollFade();
+
   const cards = document.querySelectorAll('.project-card');
   cards.forEach((card) => {
     card.classList.add('motion-ready');
