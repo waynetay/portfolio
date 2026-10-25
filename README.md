@@ -9,7 +9,7 @@
   </div>
 </section>
 
-<div id="portfolio-content" class="portfolio-locked" aria-hidden="true" markdown="0">
+<div id="portfolio-content" class="portfolio-locked" aria-hidden="true" markdown="1">
 
 I'm a student developer with **5 years of programming experience** and an interest in software development, cybersecurity, and applied research. I enjoy using technology to solve real-world problems, especially through projects that support the community.
 
