@@ -22,7 +22,7 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
       <img src="assets/images/AppIcon.png" alt="quicknote app icon" width="84">
       <div>
         <h3>quicknote — Native macOS Notes App</h3>
-        <p class="project-meta">v1.2 · Swift, SwiftUI · macOS 13 Ventura and later</p>
+        <p class="project-meta">Swift · SwiftUI · macOS 13+ · Local persistence</p>
       </div>
     </div>
     <p>A minimalist native macOS notes app with two independent writing spaces: a spacious notepad and a compact floating Quick Note. Its dark interface uses Apple's Liquid Glass design on macOS 26+, with a material-based fallback on macOS 13–25.</p>
@@ -53,14 +53,19 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
       </div>
     </div>
     <p>Built collaboratively with three other team members for TAVA, a nonprofit tuition centre supporting children through free tuition. TAVAttendance helps staff coordinate the student journey and keep every child accounted for, from arrival at the centre to attendance follow-up.</p>
-    <h4>What it includes</h4>
+    <h4>Features</h4>
     <ul>
-      <li><strong>Student check-in:</strong> A shared iPad kiosk for student arrivals, with late marking based on class start times.</li>
-      <li><strong>Teacher roster:</strong> Per-class present, absent and late marking, arrival times, and student attendance history.</li>
-      <li><strong>Centre administration:</strong> Manage classes, enrolments and tutor assignments through a web dashboard.</li>
-      <li><strong>Cross-platform tools:</strong> iPad app, Android app and web admin dashboard backed by Supabase.</li>
-      <li><strong>Resilient attendance:</strong> Teacher roster marking can work offline and sync when connectivity returns.</li>
+      <li><strong>Shared student check-in:</strong> One iPad kiosk supports arrivals across classes and automatically marks students late based on class start times.</li>
+      <li><strong>Kiosk controls:</strong> PIN-locked admin mode supports authorised overrides, including force-late and “not here yet” marking.</li>
+      <li><strong>Teacher attendance roster:</strong> Teachers can mark students present, absent or late, view arrival times, and open each student's attendance history.</li>
+      <li><strong>Offline teacher workflow:</strong> Attendance changes in the tutor roster can be saved offline and synchronised when the device reconnects.</li>
+      <li><strong>Class and enrolment management:</strong> Admins can create, edit or deactivate classes, enrol students, and assign tutors through the web dashboard.</li>
+      <li><strong>Parent tools (feature-flagged):</strong> Parent/student account linking, attendance views, result-slip uploads, and centre messaging with admin replies.</li>
+      <li><strong>Results and acknowledgements:</strong> Supports result-slip acknowledgement and tutor-facing student result workflows.</li>
+      <li><strong>Operational visibility:</strong> Human-readable audit activity records who performed an action and on which item; the web dashboard includes a 14-day attendance health chart.</li>
+      <li><strong>Cross-platform architecture:</strong> SwiftUI iPad app, Kotlin/Jetpack Compose Android app, Next.js admin dashboard and a shared Supabase backend.</li>
     </ul>
+    <p class="project-meta">Some parent-facing tools are feature-flagged and may be disabled in production. The Linux NFC arrival station is not in production.</p>
     <p>My team contributed software to support the centre's practical operational needs, combining mobile development and backend-connected workflows for a real community organisation.</p>
     <div class="project-links"><a href="https://github.com/thegoodcompany-sst/TAVAttendance">View TAVAttendance repository ↗</a></div>
     <div class="project-links"><a href="https://thegoodcompanysg.dev">View team website ↗</a></div>
