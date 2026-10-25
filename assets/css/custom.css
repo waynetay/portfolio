@@ -562,3 +562,43 @@ img {
   .project-card, .ascii-art, .reveal-on-scroll { transition: none !important; transform: none !important; }
   .reveal-on-scroll { opacity: 1 !important; }
 }
+
+
+/* Refined hero, card-stack peek, and custom cursor */
+.interactive-hero {
+  min-height: 260px;
+  margin: 4px 0 42px;
+  background: radial-gradient(ellipse at 50% 0%, rgba(123,73,255,.13), transparent 58%), var(--page);
+  border-color: var(--border);
+}
+.interactive-hero canvas, .ascii-art, .hero-caption, .hero-hint { display: none !important; }
+.hero-content { padding: clamp(28px, 5vw, 52px) 24px; text-align: left; }
+.hero-kicker { display: inline-flex; align-items: center; margin-bottom: 18px; }
+.hero-title { margin: 0 !important; color: #fff !important; font-size: clamp(2rem, 5vw, 3.7rem) !important; line-height: 1.12 !important; letter-spacing: -.055em; font-weight: 750; }
+.hero-title span { color: var(--accent); }
+.hero-subtitle { margin: 16px 0 20px !important; color: rgba(255,255,255,.72); }
+.hero-cta { display: inline-flex; align-items: center; gap: 12px; padding: 10px 15px; border: 1px solid rgba(123,73,255,.65); border-radius: 999px; color: #fff !important; text-decoration: none !important; font-size: .9rem; transition: background .2s ease, transform .2s ease; }
+.hero-cta:hover { background: rgba(123,73,255,.15); transform: translateY(-2px); }
+.hero-cta span { color: var(--accent); font-size: 1.15rem; }
+
+/* Partial-width cards make the next card visible as a deliberate stack. */
+.projects-scroll { overflow-x: auto; overflow-y: hidden; padding: 14px 38px 28px 4px; scroll-padding-left: 4px; }
+.project-card { flex: 0 0 min(82%, 760px); width: min(82%, 760px); max-width: min(82%, 760px); min-width: min(82%, 760px); box-shadow: 10px 0 0 -1px var(--page), 11px 0 0 0 rgba(123,73,255,.5), 20px 0 0 -1px var(--page), 21px 0 0 0 rgba(123,73,255,.22); }
+.project-card:hover { z-index: 2; }
+@media (max-width: 640px) {
+  .interactive-hero { min-height: 0; }
+  .hero-content { padding: 28px 20px; }
+  .hero-title { font-size: clamp(1.8rem, 8vw, 2.6rem) !important; }
+  .projects-scroll { padding-right: 30px; gap: 14px; }
+  .project-card { flex-basis: 88%; width: 88%; max-width: 88%; min-width: 88%; }
+}
+
+/* A restrained cursor ring that expands over interactive elements. */
+@media (hover: hover) and (pointer: fine) {
+  body, a, button, .project-card { cursor: none !important; }
+  .custom-cursor { position: fixed; z-index: 99999; top: 0; left: 0; width: 26px; height: 26px; border: 1px solid rgba(255,255,255,.9); border-radius: 50%; pointer-events: none; opacity: 0; transform: translate3d(-100px,-100px,0) translate(-50%,-50%); transition: width .18s ease, height .18s ease, border-color .18s ease, background .18s ease, opacity .2s ease; mix-blend-mode: difference; }
+  .custom-cursor::after { content: ""; position: absolute; width: 4px; height: 4px; top: 50%; left: 50%; border-radius: 50%; background: var(--accent); transform: translate(-50%,-50%); }
+  .custom-cursor.is-visible { opacity: 1; }
+  .custom-cursor.is-hovering { width: 42px; height: 42px; border-color: var(--accent); background: rgba(123,73,255,.12); }
+}
+@media (prefers-reduced-motion: reduce) { .hero-cta { transition: none; } }
