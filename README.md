@@ -10,63 +10,67 @@ I'm a student developer with **5 years of programming experience** and an intere
 
 ## Featured Projects
 
-A selection of projects I've built and contributed to.
-### quicknote — Native macOS Notes App
+A selection of projects I've built and contributed to. Scroll sideways or swipe to explore each project.
 
-<div align="left">
-  <img src="assets/images/AppIcon.png" alt="quicknote app icon" width="112">
+<div class="projects-scroll" aria-label="Featured projects">
+  <article class="project-card">
+    <div class="project-card-heading">
+      <img src="assets/images/AppIcon.png" alt="quicknote app icon" width="84">
+      <div>
+        <h3>quicknote — Native macOS Notes App</h3>
+        <p class="project-meta">v1.2 · Swift, SwiftUI · macOS 13 Ventura and later</p>
+      </div>
+    </div>
+    <p>A minimalist native macOS notes app with two independent writing spaces: a spacious notepad and a compact floating Quick Note. Its dark interface uses Apple's Liquid Glass design on macOS 26+, with a material-based fallback on macOS 13–25.</p>
+    <h4>Features</h4>
+    <ul>
+      <li><strong>Liquid Glass:</strong> Native glass styling on macOS 26+, with a compatible material fallback on older supported versions.</li>
+      <li><strong>Floating Quick Note:</strong> A compact window designed to stay above other windows.</li>
+      <li><strong>Two independent notes:</strong> The main Notepad and Quick Note retain separate content.</li>
+      <li><strong>Autosave:</strong> Notes persist locally after quitting and reopening the app.</li>
+      <li><strong>Privacy-first and offline:</strong> Note contents stay on the Mac and are not sent to a remote server.</li>
+      <li><strong>Minimal interface:</strong> A distraction-free notepad and a compact quick-note control.</li>
+    </ul>
+    <div class="project-links"><a href="https://github.com/waynetay/quicknote">View repository ↗</a></div>
+    <div class="project-screenshots">
+      <img src="assets/images/Screenshot%202026-10-18%20at%2014.23.20.png" alt="quicknote notepad interface">
+      <img src="assets/images/Screenshot%202026-10-18%20at%2014.23.33.png" alt="quicknote floating quick note">
+    </div>
+  </article>
+  <article class="project-card">
+    <div class="project-card-heading">
+      <div class="project-monogram">T</div>
+      <div>
+        <h3>TAVAttendance — TAVA × thegoodcompany</h3>
+        <p class="project-meta">Swift · Collaborative project</p>
+      </div>
+    </div>
+    <p>A collaborative project developed with three other team members to support TAVA, a nonprofit organisation, with its logistical needs.</p>
+    <ul>
+      <li>Developing practical software solutions for a real-world organisation.</li>
+      <li>Using technology to support community service.</li>
+    </ul>
+    <div class="project-links"><a href="https://github.com/thegoodcompany-sst">View team GitHub ↗</a></div>
+  </article>
+  <article class="project-card">
+    <div class="project-card-heading">
+      <div class="project-monogram">CSV</div>
+      <div>
+        <h3>Student Management System</h3>
+        <p class="project-meta">Python · CSV</p>
+      </div>
+    </div>
+    <p>A student grade management application designed to help teachers analyse student performance and manage academic results.</p>
+    <h4>Features</h4>
+    <ul>
+      <li>Reading and processing student data from CSV files.</li>
+      <li>Calculating individual students' average grades and average grades across courses.</li>
+      <li>Retrieving a student's grades.</li>
+      <li>Converting scores into Achievement Levels (AL) or alphabet grades.</li>
+    </ul>
+    <div class="project-links"><a href="https://github.com/Wayne005/Student-Management-Project">View repository ↗</a></div>
+  </article>
 </div>
-
-**Version:** v1.2  
-**Language:** Swift, SwiftUI  
-**Platform:** macOS 13 Ventura and later
-
-quicknote is a minimalist native macOS notes app with two independent writing spaces: a spacious notepad and a compact floating Quick Note. Its dark interface uses Apple's Liquid Glass design on macOS 26+, with a material-based fallback on macOS 13–25.
-
-**Features**
-- **Liquid Glass:** Native glass styling on macOS 26+, with a compatible material fallback on older supported versions.
-- **Floating Quick Note:** A compact window designed to stay above other windows, making it useful while browsing or working.
-- **Two independent notes:** The main Notepad and Quick Note retain separate content.
-- **Autosave:** Notes persist locally after quitting and reopening the app.
-- **Privacy-first and offline:** Note contents stay on the Mac and are not sent to a remote server.
-- **Minimal interface:** A distraction-free notepad and a compact quick-note control.
-
-**Repository:** [View quicknote on GitHub](https://github.com/waynetay/quicknote)  
-**Portfolio:** [waynetay.github.io/portfolio](https://waynetay.github.io/portfolio/)
-
-#### Screenshots
-
-<div align="center">
-  <img src="assets/images/Screenshot%202026-10-18%20at%2014.23.20.png" alt="quicknote interface" width="55%">
-  <img src="assets/images/Screenshot%202026-10-18%20at%2014.23.33.png" alt="quicknote quick note" width="30%">
-</div>
-
-        
-### TAVAttendance — TAVA × thegoodcompany
-
-**Language:** Swift 
-
-A collaborative project developed with three other team members to support TAVA, a nonprofit organisation, with its logistical needs.
-
-- Focuses on developing practical software solutions for a real-world organisation.
-- Part of an initiative to use technology to support community service.
-
-**Repository:** [TAVA × thegoodcompany](https://github.com/thegoodcompany-sst)
-        
-### Student Management System
-
-**Language:** Python, CSV
-
-A student grade management application designed to help teachers analyse student performance and manage academic results.
-
-**Features include:**
-- Reading and processing student data from CSV files.
-- Calculating individual students' average grades.
-- Calculating average grades across courses.
-- Retrieving a student's grades.
-- Converting scores into Achievement Levels (AL) or alphabet grades.
-
-**Repository:** [View on GitHub](https://github.com/Wayne005/Student-Management-Project)
 
 ---
 
