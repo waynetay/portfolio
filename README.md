@@ -43,9 +43,10 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
   </article>
   <article class="project-card">
     <div class="project-card-heading">
-      <div class="tava-logo-wrap">
-        <img class="tava-logo" src="https://raw.githubusercontent.com/thegoodcompany-sst/TAVAttendance/main/web/public/tava-logo.png" alt="TAVA logo">
-      </div>
+      <a class="tava-logo-wrap" href="https://www.tava.sg/" aria-label="Visit the official TAVA website">
+        <span class="tava-wordmark">TAVA</span>
+        <span class="tava-tagline">BY TALENT BEACON</span>
+      </a>
       <div>
         <h3>TAVAttendance — TAVA × thegoodcompany</h3>
         <p class="project-meta">SwiftUI · Kotlin · Next.js · Supabase · Collaborative project</p>
@@ -73,14 +74,15 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
         <p class="project-meta">Python · CSV</p>
       </div>
     </div>
-    <p>A student grade management application designed to help teachers analyse student performance and manage academic results.</p>
-    <h4>Features</h4>
+    <p>A Python-based academic data tool that helps organise student results stored in CSV files and turn raw scores into clearer performance summaries. It focuses on the kind of repetitive grade-processing tasks that can otherwise take time to calculate manually.</p>
+    <h4>What it does</h4>
     <ul>
-      <li>Reading and processing student data from CSV files.</li>
-      <li>Calculating individual students' average grades and average grades across courses.</li>
-      <li>Retrieving a student's grades.</li>
-      <li>Converting scores into Achievement Levels (AL) or alphabet grades.</li>
+      <li><strong>CSV data handling:</strong> Reads and processes student records from structured files.</li>
+      <li><strong>Grade lookup:</strong> Retrieves a student's recorded grades when needed.</li>
+      <li><strong>Performance summaries:</strong> Calculates individual students' average grades and average grades across courses.</li>
+      <li><strong>Score conversion:</strong> Converts marks into Achievement Levels (AL) or alphabet grades for easier interpretation.</li>
     </ul>
+    <p>The project demonstrates practical Python programming, file handling, data processing and the use of calculations to make academic information easier to work with.</p>
     <div class="project-links"><a href="https://github.com/Wayne005/Student-Management-Project">View repository ↗</a></div>
   </article>
 </div>
