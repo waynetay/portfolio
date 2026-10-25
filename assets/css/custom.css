@@ -462,3 +462,53 @@ img {
     padding: 7px;
   }
 }
+
+
+/* A crisp, vector-style TAVA wordmark with a white logo panel. */
+a.tava-logo-wrap {
+  display: flex;
+  flex: 0 0 116px;
+  width: 116px;
+  height: 84px;
+  box-sizing: border-box;
+  padding: 9px 8px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  background: #fff !important;
+  border: 1px solid rgba(255,255,255,.8);
+  border-radius: 14px;
+  color: #211b38 !important;
+  text-decoration: none !important;
+  line-height: 1.1;
+}
+.tava-wordmark {
+  color: #211b38;
+  font-size: 2rem;
+  font-weight: 850;
+  letter-spacing: .12em;
+  line-height: 1;
+}
+.tava-tagline {
+  margin-top: 7px;
+  color: #51486a;
+  font-size: .43rem;
+  font-weight: 750;
+  letter-spacing: .13em;
+  white-space: nowrap;
+}
+a.tava-logo-wrap:hover {
+  border-color: var(--accent);
+  text-decoration: none !important;
+}
+@media (max-width: 640px) {
+  a.tava-logo-wrap {
+    flex-basis: 88px;
+    width: 88px;
+    height: 60px;
+    padding: 6px;
+  }
+  .tava-wordmark { font-size: 1.55rem; }
+  .tava-tagline { font-size: .32rem; margin-top: 5px; }
+}
