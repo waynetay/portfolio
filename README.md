@@ -1,19 +1,10 @@
 
-<section class="interactive-hero" aria-label="Interactive ASCII introduction">
-  <canvas aria-hidden="true"></canvas>
+<section class="interactive-hero" aria-label="Portfolio introduction">
   <div class="hero-content">
     <span class="hero-kicker"><span class="status-dot"></span> DEVELOPER PORTFOLIO <span class="hero-separator">/</span> SINGAPORE</span>
-    <pre class="ascii-art" aria-label="ASCII wireframe orb">       .-=========-.
-    .-'  .:::::::.  '-.
-  .'   .::+#####+::.   '.
- /    .:+#%@@@@@%#+:.    \\
-|    .:+#@%*+*%@%#+:.     |
-|    .:+#%@@@@@%#+:.     |
- \\    .::+#####+::.    /
-  '.   ':::::::::'   .'
-    '-._________.-'</pre>
-    <p class="hero-caption">Curious by default. Building things that matter.</p>
-    <span class="hero-hint">MOVE YOUR CURSOR TO EXPLORE <span aria-hidden="true">↗</span></span>
+    <h2 class="hero-title">Curious by default.<br><span>Building things that matter.</span></h2>
+    <p class="hero-subtitle">Software · Cybersecurity · Applied Research</p>
+    <a class="hero-cta" href="#featured-projects">Explore my work <span aria-hidden="true">↘</span></a>
   </div>
 </section>
 
@@ -26,6 +17,7 @@ I'm a student developer with **5 years of programming experience** and an intere
 
 ---
 
+<span id="featured-projects"></span>
 ## Featured Projects
 
 A selection of projects I've built and contributed to. Scroll sideways or swipe to explore each project.
