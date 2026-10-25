@@ -74,12 +74,8 @@
         portfolio.classList.remove('portfolio-locked');
         portfolio.classList.add('portfolio-unlocked');
         portfolio.removeAttribute('aria-hidden');
-        cta.classList.add('is-used');
-        cta.style.color = 'rgba(255,255,255,.4)';
-        cta.style.borderColor = 'rgba(255,255,255,.2)';
-        cta.style.opacity = '.55';
-        cta.style.pointerEvents = 'none';
         cta.setAttribute('aria-expanded', 'true');
+        cta.remove();
         const target = document.getElementById('featured-projects');
         window.setTimeout(() => {
           (target || portfolio).scrollIntoView({
