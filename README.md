@@ -49,12 +49,12 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
         <p class="project-meta">Swift · Collaborative project</p>
       </div>
     </div>
-    <p>A collaborative project developed with three other team members to support TAVA, a nonprofit organisation, with its logistical needs.</p>
+    <p>A collaborative project developed with three other team members to support TAVA, a nonprofit organisation based in Bukit Batok that helps less fortunate children with free tuition services, by developing an app that helps with their logistical needs.</p>
     <ul>
-      <li>Developing practical software solutions for a real-world organisation.</li>
-      <li>Using technology to support community service.</li>
     </ul>
     <div class="project-links"><a href="https://github.com/thegoodcompany-sst">View team GitHub ↗</a></div>
+    <div class="project-links"><a href="https://thegoodcompanysg.dev">View team website ↗</a></div>
+    <div class="project-links"><a href="https://www.tava.sg">View tava website ↗</a></div>
   </article>
   <article class="project-card">
     <div class="project-card-heading">
