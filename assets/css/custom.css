@@ -279,7 +279,7 @@ img {
   gap: 18px;
   overflow-x: auto;
   overflow-y: hidden;
-  padding: 8px 2px 20px;
+  padding: 8px 0 20px;
   margin: 22px 0 32px;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
@@ -289,7 +289,7 @@ img {
   -webkit-overflow-scrolling: touch;
 }
 .project-card {
-  flex: 0 0 min(78%, 680px);
+  flex: 0 0 100%;
   min-width: 0;
   box-sizing: border-box;
   scroll-snap-align: start;
@@ -365,7 +365,7 @@ img {
   border: 1px solid var(--border);
 }
 @media (max-width: 640px) {
-  .project-card { flex-basis: 88%; padding: 18px; }
+  .project-card { flex-basis: 100%; padding: 18px; }
   .project-card-heading { gap: 12px; align-items: flex-start; }
   .project-card-heading img, .project-monogram { width: 60px; height: 60px; flex-basis: 60px; }
   .project-card h3 { font-size: 1.12rem !important; }
