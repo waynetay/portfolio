@@ -271,3 +271,104 @@ img {
 #header {
   display: none !important;
 }
+
+
+/* Native horizontal project gallery: no scroll hijacking or speed-sensitive JS. */
+.projects-scroll {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 8px 2px 20px;
+  margin: 22px 0 32px;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  overscroll-behavior-x: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) var(--surface);
+  -webkit-overflow-scrolling: touch;
+}
+.project-card {
+  flex: 0 0 min(78%, 680px);
+  min-width: 0;
+  box-sizing: border-box;
+  scroll-snap-align: start;
+  padding: clamp(20px, 3vw, 32px);
+  background: linear-gradient(145deg, rgba(255,255,255,.035), rgba(255,255,255,.012));
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  overflow-wrap: anywhere;
+}
+.project-card h3 {
+  margin: 0 0 8px !important;
+  font-size: 1.35rem !important;
+}
+.project-card h4 {
+  margin: 22px 0 8px !important;
+  font-size: 1rem !important;
+}
+.project-card p {
+  margin: 12px 0;
+}
+.project-card-heading {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+.project-card-heading img {
+  flex: 0 0 auto;
+  width: 84px;
+  height: 84px;
+  object-fit: contain;
+  border-radius: 16px;
+}
+.project-card-heading > div:last-child {
+  min-width: 0;
+}
+.project-meta {
+  color: #fff;
+  opacity: .8;
+  font-size: .88rem;
+  margin: 0 !important;
+}
+.project-monogram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 84px;
+  height: 84px;
+  border-radius: 16px;
+  background: var(--accent-soft);
+  color: #fff;
+  font-weight: 750;
+  font-size: 1.35rem;
+  letter-spacing: -.04em;
+}
+.project-links {
+  margin-top: 20px;
+  font-weight: 650;
+}
+.project-screenshots {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 20px;
+}
+.project-screenshots img {
+  display: block;
+  width: calc(50% - 6px);
+  max-height: 220px;
+  object-fit: contain;
+  object-position: left center;
+  background: rgba(0,0,0,.18);
+  border: 1px solid var(--border);
+}
+@media (max-width: 640px) {
+  .project-card { flex-basis: 88%; padding: 18px; }
+  .project-card-heading { gap: 12px; align-items: flex-start; }
+  .project-card-heading img, .project-monogram { width: 60px; height: 60px; flex-basis: 60px; }
+  .project-card h3 { font-size: 1.12rem !important; }
+  .project-screenshots { flex-direction: column; }
+  .project-screenshots img { width: 100%; max-height: 180px; }
+}
