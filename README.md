@@ -12,6 +12,14 @@ I'm a student developer with **5 years of programming experience** and an intere
 
 A selection of projects I've built and contributed to. Scroll sideways or swipe to explore each project.
 
+<div class="projects-controls" aria-label="Project gallery controls">
+  <span>Scroll to explore projects</span>
+  <div>
+    <button type="button" class="projects-arrow" data-projects-direction="-1" aria-label="Previous project">←</button>
+    <button type="button" class="projects-arrow" data-projects-direction="1" aria-label="Next project">→</button>
+  </div>
+</div>
+
 <div class="projects-scroll" aria-label="Featured projects">
   <article class="project-card">
     <div class="project-card-heading">
