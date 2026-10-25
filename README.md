@@ -9,6 +9,8 @@
   </div>
 </section>
 
+<div id="portfolio-content" class="portfolio-locked" aria-hidden="true" markdown="1">
+
 I'm a student developer with **5 years of programming experience** and an interest in software development, cybersecurity, and applied research. I enjoy using technology to solve real-world problems, especially through projects that support the community.
 
 - **Programming:** Python, Swift, and Kotlin
@@ -187,5 +189,7 @@ I'm continuing to develop my programming skills through collaborative projects, 
 - **Personal Email:** [waynetay811@gmail.com](mailto:waynetay811@gmail.com)
 - **School Email:** [tay_an_zhi_wayne@ssts.edu.sg](mailto:tay_an_zhi_wayne@ssts.edu.sg)
 
+
+</div>
 
 <script src="assets/js/portfolio.js" defer></script>
