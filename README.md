@@ -43,18 +43,27 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
   </article>
   <article class="project-card">
     <div class="project-card-heading">
-      <div class="project-monogram">T</div>
+      <div class="tava-logo-wrap">
+        <img class="tava-logo" src="https://raw.githubusercontent.com/thegoodcompany-sst/TAVAttendance/main/web/public/tava-logo.png" alt="TAVA logo">
+      </div>
       <div>
         <h3>TAVAttendance — TAVA × thegoodcompany</h3>
-        <p class="project-meta">Swift · Collaborative project</p>
+        <p class="project-meta">SwiftUI · Kotlin · Next.js · Supabase · Collaborative project</p>
       </div>
     </div>
-    <p>A collaborative project developed with three other team members to support TAVA, a nonprofit organisation based in Bukit Batok that helps less fortunate children with free tuition services, by developing an app that helps with their logistical needs.</p>
+    <p>Built collaboratively with three other team members for TAVA, a nonprofit tuition centre supporting children through free tuition. TAVAttendance helps staff coordinate the student journey and keep every child accounted for, from arrival at the centre to attendance follow-up.</p>
+    <h4>What it includes</h4>
     <ul>
+      <li><strong>Student check-in:</strong> A shared iPad kiosk for student arrivals, with late marking based on class start times.</li>
+      <li><strong>Teacher roster:</strong> Per-class present, absent and late marking, arrival times, and student attendance history.</li>
+      <li><strong>Centre administration:</strong> Manage classes, enrolments and tutor assignments through a web dashboard.</li>
+      <li><strong>Cross-platform tools:</strong> iPad app, Android app and web admin dashboard backed by Supabase.</li>
+      <li><strong>Resilient attendance:</strong> Teacher roster marking can work offline and sync when connectivity returns.</li>
     </ul>
-    <div class="project-links"><a href="https://github.com/thegoodcompany-sst">View team GitHub ↗</a></div>
+    <p>My team contributed software to support the centre's practical operational needs, combining mobile development and backend-connected workflows for a real community organisation.</p>
+    <div class="project-links"><a href="https://github.com/thegoodcompany-sst/TAVAttendance">View TAVAttendance repository ↗</a></div>
     <div class="project-links"><a href="https://thegoodcompanysg.dev">View team website ↗</a></div>
-    <div class="project-links"><a href="https://www.tava.sg">View tava website ↗</a></div>
+    <div class="project-links"><a href="https://www.tava.sg">Visit TAVA website ↗</a></div>
   </article>
   <article class="project-card">
     <div class="project-card-heading">
