@@ -704,3 +704,8 @@ img {
 }
 .hero-cta.is-used span { color: rgba(255,255,255,.4); }
 .hero-cta.is-used:hover { background: transparent; transform: none; }
+
+
+/* Tighten the transition from the hero CTA to the opening bio paragraph. */
+.interactive-hero { margin-bottom: 0 !important; }
+#portfolio-content > p:first-child { margin-top: 0 !important; }
