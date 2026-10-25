@@ -512,3 +512,13 @@ a.tava-logo-wrap:hover {
   .tava-wordmark { font-size: 1.55rem; }
   .tava-tagline { font-size: .32rem; margin-top: 5px; }
 }
+
+
+/* Preserve TAVA's rainbow V in the wordmark. */
+.tava-rainbow-v {
+  background: linear-gradient(180deg, #ed3347 0%, #ff9b35 22%, #f6d64a 40%, #40b96b 58%, #3488f5 76%, #9a55db 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent;
+}
