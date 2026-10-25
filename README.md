@@ -51,21 +51,15 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
         <p class="project-meta">SwiftUI · Kotlin · Next.js · Supabase · Collaborative project</p>
       </div>
     </div>
-    <p>Built collaboratively with three other team members for TAVA, a nonprofit tuition centre supporting children through free tuition. TAVAttendance helps staff coordinate the student journey and keep every child accounted for, from arrival at the centre to attendance follow-up.</p>
-    <h4>Features</h4>
+    <p>Built with three teammates for TAVA, a nonprofit tuition centre. TAVAttendance helps staff track student arrivals, manage attendance and follow up with families.</p>
+    <h4>Key features</h4>
     <ul>
-      <li><strong>Shared student check-in:</strong> One iPad kiosk supports arrivals across classes and automatically marks students late based on class start times.</li>
-      <li><strong>Kiosk controls:</strong> PIN-locked admin mode supports authorised overrides, including force-late and “not here yet” marking.</li>
-      <li><strong>Teacher attendance roster:</strong> Teachers can mark students present, absent or late, view arrival times, and open each student's attendance history.</li>
-      <li><strong>Offline teacher workflow:</strong> Attendance changes in the tutor roster can be saved offline and synchronised when the device reconnects.</li>
-      <li><strong>Class and enrolment management:</strong> Admins can create, edit or deactivate classes, enrol students, and assign tutors through the web dashboard.</li>
-      <li><strong>Parent tools (feature-flagged):</strong> Parent/student account linking, attendance views, result-slip uploads, and centre messaging with admin replies.</li>
-      <li><strong>Results and acknowledgements:</strong> Supports result-slip acknowledgement and tutor-facing student result workflows.</li>
-      <li><strong>Operational visibility:</strong> Human-readable audit activity records who performed an action and on which item; the web dashboard includes a 14-day attendance health chart.</li>
-      <li><strong>Cross-platform architecture:</strong> SwiftUI iPad app, Kotlin/Jetpack Compose Android app, Next.js admin dashboard and a shared Supabase backend.</li>
+      <li><strong>Student check-in:</strong> A shared iPad kiosk records arrivals, flags late students and supports PIN-protected admin overrides.</li>
+      <li><strong>Teacher attendance:</strong> Teachers can mark students present, absent or late, view arrival times and attendance history, and save changes offline for later sync.</li>
+      <li><strong>Class management:</strong> A web dashboard lets admins manage classes, enrolments and tutor assignments.</li>
+      <li><strong>Results and family tools:</strong> Includes result-slip workflows and parent attendance/messaging features, some of which are feature-flagged.</li>
+      <li><strong>Multi-platform system:</strong> SwiftUI for iPad, Kotlin/Jetpack Compose for Android, Next.js for the dashboard, and Supabase for the backend.</li>
     </ul>
-    <p class="project-meta">Some parent-facing tools are feature-flagged and may be disabled in production. The Linux NFC arrival station is not in production.</p>
-    <p>My team contributed software to support the centre's practical operational needs, combining mobile development and backend-connected workflows for a real community organisation.</p>
     <div class="project-links"><a href="https://github.com/thegoodcompany-sst/TAVAttendance">View TAVAttendance repository ↗</a></div>
     <div class="project-links"><a href="https://thegoodcompanysg.dev">View team website ↗</a></div>
     <div class="project-links"><a href="https://www.tava.sg">Visit TAVA website ↗</a></div>
