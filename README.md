@@ -2,9 +2,10 @@
 <section class="interactive-hero" aria-label="Portfolio introduction">
   <div class="hero-content">
     <span class="hero-kicker"><span class="status-dot"></span> DEVELOPER PORTFOLIO <span class="hero-separator">/</span> SINGAPORE</span>
-    <h2 class="hero-title">Curious by default.<br><span>Building things that matter.</span></h2>
+    <h1 class="hero-name">Wayne Tay</h1>
+    <p class="hero-title">Curious by default.<br><span>Building things that matter.</span></p>
     <p class="hero-subtitle">Software · Cybersecurity · Applied Research</p>
-    <a class="hero-cta" href="#featured-projects">Explore my work <span aria-hidden="true">↘</span></a>
+    <a class="hero-cta" href="#featured-projects" aria-controls="portfolio-content">View my work <span aria-hidden="true">↘</span></a>
   </div>
 </section>
 
