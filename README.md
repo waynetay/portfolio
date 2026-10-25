@@ -13,7 +13,7 @@ I'm a student developer with **5 years of programming experience** and an intere
 A selection of projects I've built and contributed to. Scroll sideways or swipe to explore each project.
 
 <div class="projects-controls" aria-label="Project gallery instructions">
-  <span>###Scroll sideways or swipe to explore projects###</span>
+  <span>Scroll sideways or swipe to explore projects</span>
 </div>
 
 <div class="projects-scroll" aria-label="Featured projects">
