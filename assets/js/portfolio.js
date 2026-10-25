@@ -74,7 +74,7 @@
         portfolio.classList.remove('portfolio-locked');
         portfolio.classList.add('portfolio-unlocked');
         portfolio.removeAttribute('aria-hidden');
-        cta.innerHTML = 'Portfolio unlocked <span aria-hidden="true">↘</span>';
+        cta.classList.add('is-used');
         cta.setAttribute('aria-expanded', 'true');
         const target = document.getElementById('featured-projects');
         window.setTimeout(() => {
