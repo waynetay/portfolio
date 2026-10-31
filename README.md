@@ -15,7 +15,28 @@ I'm a student developer with **5 years of programming experience** and an intere
 
 - **Programming:** Python, Swift, and Kotlin
 - **Cybersecurity:** Bronze 33 placement in the International Junior Cybersecurity Olympiad
-- **Research:** Experience in applied research and participation in the Tan Kah Kee Young Inventors' Award
+- **Research:** Applied research and school project work
+- **Involvement:** SST Inc. and ARC@SST
+
+### Recent highlights
+
+<div class="portfolio-highlights">
+  <article>
+    <span>Research · 2026</span>
+    <h3>Tan Kah Kee Young Inventors’ Award</h3>
+    <p>Represented my school at the local event through Applied Research Club.</p>
+  </article>
+  <article>
+    <span>Science · 2026</span>
+    <h3>Opportunity-X Science Fair</h3>
+    <p>Presented a research project at an international science event.</p>
+  </article>
+  <article>
+    <span>Mathematics · 2026</span>
+    <h3>NIE Mathematics Challenge</h3>
+    <p>Received a Merit Award while representing my school.</p>
+  </article>
+</div>
 - **Involvement:** SST Inc. and ARC@SST
 
 ---
