@@ -96,15 +96,7 @@
         portfolio.removeAttribute('aria-hidden');
         cta.setAttribute('aria-expanded', 'true');
         cta.remove();
-        const target = portfolio.querySelector('.projects-scroll')
-          || document.getElementById('featured-projects')
-          || portfolio;
-        window.setTimeout(() => {
-          target.scrollIntoView({
-            behavior: reduceMotion ? 'auto' : 'smooth',
-            block: 'start'
-          });
-        }, 100);
+        intro.classList.add('is-open');
       }, { once: true });
     }
   }
