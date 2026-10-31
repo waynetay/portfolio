@@ -857,3 +857,55 @@ img {
   .project-card { padding: 20px !important; }
   .project-card-heading { padding-bottom: 13px; }
 }
+
+
+/* Warmer highlights and clearer contrast for recent work. */
+:root {
+  --accent: #f0b777;
+  --accent-hover: #ffd39a;
+  --accent-soft: rgba(240, 183, 119, .12);
+}
+a:hover, a:focus-visible { color: var(--accent-hover) !important; }
+::selection { background: rgba(240, 183, 119, .3); }
+.interactive-hero {
+  background: radial-gradient(ellipse at 50% 45%, rgba(240, 183, 119, .08), transparent 58%), var(--page);
+}
+.hero-title span { color: var(--accent) !important; }
+.hero-cta { border-color: rgba(240, 183, 119, .5); }
+.hero-cta:hover { background: rgba(240, 183, 119, .1); }
+.status-dot { box-shadow: 0 0 10px rgba(240, 183, 119, .45); }
+
+.portfolio-highlights {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(18px, 3vw, 34px);
+  margin: 18px 0 34px;
+}
+.portfolio-highlights article {
+  min-width: 0;
+  padding: 14px 0 4px;
+  border-top: 1px solid rgba(240, 183, 119, .48);
+}
+.portfolio-highlights article > span {
+  color: var(--accent);
+  font-size: .75rem;
+  letter-spacing: .04em;
+}
+.portfolio-highlights h3 {
+  margin: 8px 0 6px !important;
+  font-size: 1.02rem !important;
+  line-height: 1.35;
+}
+.portfolio-highlights p {
+  margin: 0;
+  color: rgba(255, 255, 255, .68);
+  font-size: .9rem;
+  line-height: 1.6;
+}
+@media (max-width: 640px) {
+  .portfolio-highlights {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin-bottom: 26px;
+  }
+}
