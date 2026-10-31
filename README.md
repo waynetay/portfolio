@@ -134,7 +134,7 @@ A member for two years and counting, gaining experience in mobile application de
 
 - Developed skills in Swift, including advanced programming concepts.
 - Gained foundational experience with Kotlin.
-- Selected to participate in **Project SF in San Francisco**, part of an initiative focused on building applications for nonprofit organisations serving people in need.
+- **Community project:** Selected to participate in Project SF in San Francisco, an initiative building applications for nonprofit organisations serving people in need.
 
 ### ARC@SST — Applied Research Club
 
@@ -142,9 +142,9 @@ A member for two years and counting, gaining experience in mobile application de
 
 A member of the first batch of ARC@SST, participating in applied research and school activities.
 
-- Helped to host GALESS 2026.
-- Supported school events, including Open House and CCA Fair.
-- Contributed to service activities.
+- Helped to host GALESS 2026 and supported school events, including Open House and CCA Fair.
+- **Service activities:** Participated in a SEM workshop for NTSS, SST Open House, and a science demonstration outreach at Thye Hua Kwan Family Service Centre – MacPherson.
+- Also took part in **Kids Learn Code** at Rulang Primary School, the **Sec 1 BASE Service Learning Programme**, and the **2025 GALESS Singapore Conference**.
 
 ---
 
