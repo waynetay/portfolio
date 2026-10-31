@@ -18,25 +18,6 @@ I'm a student developer with **5 years of programming experience** and an intere
 - **Research:** Applied research and school project work
 - **Involvement:** SST Inc. and ARC@SST
 
-### Recent highlights
-
-<div class="portfolio-highlights">
-  <article>
-    <span>Research · 2026</span>
-    <h3>Tan Kah Kee Young Inventors’ Award</h3>
-    <p>Represented my school at the local event through Applied Research Club.</p>
-  </article>
-  <article>
-    <span>Science · 2026</span>
-    <h3>Opportunity-X Science Fair</h3>
-    <p>Presented a research project at an international science event.</p>
-  </article>
-  <article>
-    <span>Mathematics · 2026</span>
-    <h3>NIE Mathematics Challenge</h3>
-    <p>Received a Merit Award while representing my school.</p>
-  </article>
-</div>
 - **Involvement:** SST Inc. and ARC@SST
 
 ---
@@ -143,8 +124,17 @@ A member for two years and counting, gaining experience in mobile application de
 A member of the first batch of ARC@SST, participating in applied research and school activities.
 
 - Helped to host GALESS 2026 and supported school events, including Open House and CCA Fair.
+- **Tan Kah Kee Young Inventors’ Award (2026):** Represented my school at the local event through Applied Research Club.
 - **Service activities:** Participated in a SEM workshop for NTSS, SST Open House, and a science demonstration outreach at Thye Hua Kwan Family Service Centre – MacPherson.
-- Also took part in **Kids Learn Code** at Rulang Primary School, the **Sec 1 BASE Service Learning Programme**, and the **2025 GALESS Singapore Conference**.
+- Also took part in the **Sec 1 BASE Service Learning Programme** and the **2025 GALESS Singapore Conference**.
+
+---
+
+## Miscellaneous
+
+- **Opportunity-X Science Fair (2026):** Presented a research project at an international science event.
+- **NIE Mathematics Challenge (2026):** Received a Merit Award while representing my school.
+- **Kids Learn Code, Rulang Primary School:** Participated in this service activity.
 
 ---
 
