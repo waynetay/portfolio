@@ -21,9 +21,33 @@
       cursor.classList.add('is-visible');
     }, { passive: true });
     window.addEventListener('pointerleave', () => cursor.classList.remove('is-visible'));
-    document.querySelectorAll('a, button, .project-card').forEach((el) => {
+    const projectCursorIcons = {
+      quicknote: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 5 5 5M4 20l4.2-1 10.1-10.1a2.1 2.1 0 0 0-3-3L5.2 16 4 20Z"/></svg>',
+      tava: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4.5 4.5L19 7"/></svg>',
+      student: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3.5h7l4 4V20H7z"/><path d="M14 3.5V8h4M10 12h5M10 15.5h5"/></svg>'
+    };
+    const projectClasses = ['is-project-quicknote', 'is-project-tava', 'is-project-student'];
+    document.querySelectorAll('a, button').forEach((el) => {
       el.addEventListener('pointerenter', () => cursor.classList.add('is-hovering'));
       el.addEventListener('pointerleave', () => cursor.classList.remove('is-hovering'));
+    });
+    document.querySelectorAll('.project-card').forEach((card) => {
+      card.addEventListener('pointerenter', () => {
+        const title = (card.querySelector('h3')?.textContent || '').toLowerCase();
+        const project = title.includes('quicknote') ? 'quicknote' : title.includes('tava') ? 'tava' : title.includes('student management') ? 'student' : '';
+        cursor.classList.add('is-hovering');
+        cursor.classList.remove(...projectClasses);
+        if (project) {
+          cursor.classList.add('is-project-' + project);
+          cursor.innerHTML = projectCursorIcons[project];
+        } else {
+          cursor.innerHTML = '';
+        }
+      });
+      card.addEventListener('pointerleave', () => {
+        cursor.classList.remove('is-hovering', ...projectClasses);
+        cursor.innerHTML = '';
+      });
     });
   }
 
