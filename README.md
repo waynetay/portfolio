@@ -38,17 +38,20 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
         <p class="project-meta">Swift · SwiftUI · macOS 13+ · Local persistence</p>
       </div>
     </div>
-    <p>A minimalist native macOS notes app with two independent writing spaces: a spacious notepad and a compact floating Quick Note. Its dark interface uses Apple's Liquid Glass design on macOS 26+, with a material-based fallback on macOS 13–25.</p>
+    <p>A lightweight macOS notes app that stays in the menu bar, with a full Notepad and a compact Quick Note that can sit over other apps, including full-screen Spaces. Option–Q opens the Quick Note; Shift–Option–Q opens the Notepad. Notes save locally, and the interface uses Liquid Glass on macOS 26+ with a material fallback on earlier supported versions.</p>
     <h4>Features</h4>
     <ul>
       <li><strong>Liquid Glass:</strong> Native glass styling on macOS 26+, with a compatible material fallback on older supported versions.</li>
-      <li><strong>Floating Quick Note:</strong> A compact window designed to stay above other windows.</li>
-      <li><strong>Two independent notes:</strong> The main Notepad and Quick Note retain separate content.</li>
+      <li><strong>Floating Quick Note:</strong> Open it with Option–Q; it can sit over other apps, including full-screen Spaces.</li>
+      <li><strong>Full Notepad:</strong> Open it with Shift–Option–Q, even when the main window is closed.</li>
+      <li><strong>Menu bar access:</strong> Quicknote can stay available in the background and launch at login.</li>
+      <li><strong>Two independent notes:</strong> The Notepad and Quick Note retain separate content.</li>
       <li><strong>Autosave:</strong> Notes persist locally after quitting and reopening the app.</li>
       <li><strong>Privacy-first and offline:</strong> Note contents stay on the Mac and are not sent to a remote server.</li>
       <li><strong>Minimal interface:</strong> A distraction-free notepad and a compact quick-note control.</li>
     </ul>
     <div class="project-links"><a href="https://github.com/waynetay/quicknote">View repository ↗</a></div>
+    <div class="project-links"><a href="https://github.com/waynetay/quicknote/releases/tag/v1.3">Download v1.3 ↗</a></div>
     <div class="project-screenshots">
       <img src="assets/images/Screenshot%202026-10-18%20at%2014.23.20.png" alt="quicknote notepad interface">
       <img src="assets/images/Screenshot%202026-10-18%20at%2014.23.33.png" alt="quicknote floating quick note">
