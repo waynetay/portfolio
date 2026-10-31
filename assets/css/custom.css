@@ -859,21 +859,21 @@ img {
 }
 
 
-/* Warmer highlights and clearer contrast for recent work. */
+/* Purple highlights and clearer contrast for recent work. */
 :root {
-  --accent: #f0b777;
-  --accent-hover: #ffd39a;
-  --accent-soft: rgba(240, 183, 119, .12);
+  --accent: #7B49FF;
+  --accent-hover: #946fff;
+  --accent-soft: rgba(123, 73, 255, .14);
 }
 a:hover, a:focus-visible { color: var(--accent-hover) !important; }
-::selection { background: rgba(240, 183, 119, .3); }
+::selection { background: rgba(123, 73, 255, .3); }
 .interactive-hero {
-  background: radial-gradient(ellipse at 50% 45%, rgba(240, 183, 119, .08), transparent 58%), var(--page);
+  background: radial-gradient(ellipse at 50% 45%, rgba(123, 73, 255, .08), transparent 58%), var(--page);
 }
 .hero-title span { color: var(--accent) !important; }
-.hero-cta { border-color: rgba(240, 183, 119, .5); }
-.hero-cta:hover { background: rgba(240, 183, 119, .1); }
-.status-dot { box-shadow: 0 0 10px rgba(240, 183, 119, .45); }
+.hero-cta { border-color: rgba(123, 73, 255, .5); }
+.hero-cta:hover { background: rgba(123, 73, 255, .1); }
+.status-dot { box-shadow: 0 0 10px rgba(123, 73, 255, .45); }
 
 .portfolio-highlights {
   display: grid;
@@ -884,7 +884,7 @@ a:hover, a:focus-visible { color: var(--accent-hover) !important; }
 .portfolio-highlights article {
   min-width: 0;
   padding: 14px 0 4px;
-  border-top: 1px solid rgba(240, 183, 119, .48);
+  border-top: 1px solid rgba(123, 73, 255, .48);
 }
 .portfolio-highlights article > span {
   color: var(--accent);
