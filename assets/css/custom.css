@@ -709,3 +709,56 @@ img {
 /* Tighten the transition from the hero CTA to the opening bio paragraph. */
 .interactive-hero { margin-bottom: 0 !important; }
 #portfolio-content > p:first-child { margin-top: 0 !important; }
+
+
+/* Quiet, direct motion pass */
+@media (hover: hover) and (pointer: fine) {
+  .custom-cursor { transition: width .16s ease, height .16s ease, border-color .16s ease, background .16s ease, opacity .12s ease !important; }
+}
+/* Let the hero copy follow the scroll position without a delayed easing tail. */
+.hero-subtitle, .hero-cta { transition: none !important; }
+/* A restrained card stack: rely on the next card peeking through, with neutral edges. */
+.projects-controls {
+  margin: 12px 0 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: rgba(255,255,255,.58);
+  font-size: .82rem;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.projects-controls span::before { content: none; }
+.projects-scroll {
+  gap: 14px;
+  padding: 12px 32px 24px 2px;
+  scrollbar-color: rgba(255,255,255,.22) transparent;
+}
+.projects-scroll::-webkit-scrollbar { height: 6px; }
+.projects-scroll::-webkit-scrollbar-track { background: transparent; }
+.projects-scroll::-webkit-scrollbar-thumb { background: rgba(255,255,255,.22); }
+.projects-scroll::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,.38); }
+.project-card {
+  background: #0d0d12 !important;
+  border-color: rgba(255,255,255,.12) !important;
+  border-radius: 14px;
+  box-shadow: none !important;
+  transition: border-color .2s ease, background .2s ease !important;
+}
+.project-card:hover {
+  border-color: rgba(255,255,255,.24) !important;
+  box-shadow: none !important;
+}
+.project-card::before, .project-card::after {
+  border-color: rgba(255,255,255,.12);
+  background: #0d0d12;
+}
+.project-card:hover::before, .project-card:hover::after { border-color: rgba(255,255,255,.18); }
+.reveal-on-scroll {
+  transform: translateY(8px);
+  transition: opacity .45s ease, transform .45s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal-on-scroll { transform: none !important; transition: none !important; }
+}
