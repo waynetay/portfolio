@@ -799,3 +799,18 @@ img {
     stroke-linejoin: round;
   }
 }
+
+
+/* After opening, let the intro settle to its content height so the revealed bio sits close below the button. */
+.interactive-hero {
+  transition: min-height .65s cubic-bezier(.22,.68,0,1);
+}
+.interactive-hero.is-open {
+  min-height: 0;
+}
+.interactive-hero.is-open .hero-content {
+  padding-bottom: 0 !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  .interactive-hero { transition: none !important; }
+}
