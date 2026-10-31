@@ -16,16 +16,8 @@
   cursor.setAttribute('aria-hidden', 'true');
   document.body.appendChild(cursor);
   if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
-    let x = -100, y = -100, targetX = -100, targetY = -100;
-    const animateCursor = () => {
-      x += (targetX - x) * 0.22;
-      y += (targetY - y) * 0.22;
-      cursor.style.transform = 'translate3d(' + x + 'px,' + y + 'px,0) translate(-50%,-50%)';
-      requestAnimationFrame(animateCursor);
-    };
     window.addEventListener('pointermove', (event) => {
-      targetX = event.clientX;
-      targetY = event.clientY;
+      cursor.style.transform = 'translate3d(' + event.clientX + 'px,' + event.clientY + 'px,0) translate(-50%,-50%)';
       cursor.classList.add('is-visible');
     }, { passive: true });
     window.addEventListener('pointerleave', () => cursor.classList.remove('is-visible'));
@@ -33,7 +25,6 @@
       el.addEventListener('pointerenter', () => cursor.classList.add('is-hovering'));
       el.addEventListener('pointerleave', () => cursor.classList.remove('is-hovering'));
     });
-    animateCursor();
   }
 
   // Fade the supporting hero text as the hero leaves view; reverse naturally when scrolling back up.
@@ -55,7 +46,12 @@
       el.style.pointerEvents = opacity < 0.08 ? 'none' : '';
     });
   };
-  window.addEventListener('scroll', heroScrollFade, { passive: true });
+  let fadeQueued = false;
+  window.addEventListener('scroll', () => {
+    if (fadeQueued) return;
+    fadeQueued = true;
+    requestAnimationFrame(() => { heroScrollFade(); fadeQueued = false; });
+  }, { passive: true });
   window.addEventListener('resize', heroScrollFade, { passive: true });
   heroScrollFade();
 
