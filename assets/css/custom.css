@@ -814,3 +814,46 @@ img {
 @media (prefers-reduced-motion: reduce) {
   .interactive-hero { transition: none !important; }
 }
+
+
+/* Quiet page treatment: keep reading and scrolling steady, with clearer card typography. */
+.reveal-on-scroll {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
+.project-card {
+  transform: none !important;
+  transform-style: flat;
+  transition: none !important;
+  padding: clamp(22px, 3.2vw, 34px);
+  color: rgba(255,255,255,.88);
+  line-height: 1.68;
+}
+.project-card-heading {
+  align-items: center;
+  padding-bottom: 16px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+.project-card h3 {
+  margin: 0 0 5px !important;
+  line-height: 1.25 !important;
+}
+.project-card h4 {
+  margin: 20px 0 7px !important;
+  color: rgba(255,255,255,.78) !important;
+  line-height: 1.35;
+}
+.project-card p { margin: 10px 0; }
+.project-card ul { margin: 8px 0 14px; }
+.project-meta {
+  color: rgba(255,255,255,.58) !important;
+  opacity: 1;
+  font-size: .82rem;
+  line-height: 1.5;
+}
+@media (max-width: 640px) {
+  .project-card { padding: 20px !important; }
+  .project-card-heading { padding-bottom: 13px; }
+}
