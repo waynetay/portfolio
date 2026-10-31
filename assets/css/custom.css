@@ -762,3 +762,40 @@ img {
 @media (prefers-reduced-motion: reduce) {
   .reveal-on-scroll { transform: none !important; transition: none !important; }
 }
+
+
+/* Project-specific cursor marks and quiet card edges */
+.project-card,
+.project-card:hover {
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+.project-card::before, .project-card::after { display: none !important; }
+@media (hover: hover) and (pointer: fine) {
+  .custom-cursor.is-project-quicknote,
+  .custom-cursor.is-project-tava,
+  .custom-cursor.is-project-student {
+    width: 34px;
+    height: 34px;
+    border-color: rgba(255,255,255,.78);
+    background: rgba(8,8,12,.78);
+    mix-blend-mode: normal;
+    display: grid;
+    place-items: center;
+  }
+  .custom-cursor.is-project-quicknote::after,
+  .custom-cursor.is-project-tava::after,
+  .custom-cursor.is-project-student::after { display: none; }
+  .custom-cursor.is-project-quicknote svg,
+  .custom-cursor.is-project-tava svg,
+  .custom-cursor.is-project-student svg {
+    display: block;
+    width: 17px;
+    height: 17px;
+    fill: none;
+    stroke: #fff;
+    stroke-width: 1.7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+}
