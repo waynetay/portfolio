@@ -51,34 +51,6 @@
     });
   }
 
-  // Fade the supporting hero text as the hero leaves view; reverse naturally when scrolling back up.
-  const heroScrollFade = () => {
-    const hero = document.querySelector('.interactive-hero');
-    if (!hero) return;
-    const subtitle = hero.querySelector('.hero-subtitle');
-    const cta = hero.querySelector('.hero-cta');
-    if (!subtitle && !cta) return;
-    const rect = hero.getBoundingClientRect();
-    const fadeStart = Math.max(60, rect.height * 0.18);
-    const fadeEnd = rect.height * 0.82;
-    const progress = Math.min(1, Math.max(0, (fadeStart - rect.top) / Math.max(1, fadeEnd)));
-    const opacity = 1 - progress;
-    [subtitle, cta].forEach((el) => {
-      if (!el) return;
-      el.style.opacity = opacity.toFixed(3);
-      el.style.transform = 'translateY(' + (progress * -10).toFixed(1) + 'px)';
-      el.style.pointerEvents = opacity < 0.08 ? 'none' : '';
-    });
-  };
-  let fadeQueued = false;
-  window.addEventListener('scroll', () => {
-    if (fadeQueued) return;
-    fadeQueued = true;
-    requestAnimationFrame(() => { heroScrollFade(); fadeQueued = false; });
-  }, { passive: true });
-  window.addEventListener('resize', heroScrollFade, { passive: true });
-  heroScrollFade();
-
   // Lock the complete portfolio container until the visitor explicitly opens it.
   const intro = document.querySelector('.interactive-hero');
   const portfolio = document.getElementById('portfolio-content');
@@ -101,39 +73,4 @@
     }
   }
 
-  const cards = document.querySelectorAll('.project-card');
-  cards.forEach((card) => {
-    card.classList.add('motion-ready');
-    if (reduceMotion) return;
-    card.addEventListener('pointermove', (event) => {
-      if (event.pointerType !== 'mouse') return;
-      const rect = card.getBoundingClientRect();
-      const x = (event.clientX - rect.left) / rect.width;
-      const y = (event.clientY - rect.top) / rect.height;
-      card.style.setProperty('--tilt-x', ((0.5 - y) * 2.4).toFixed(2) + 'deg');
-      card.style.setProperty('--tilt-y', ((x - 0.5) * 2.8).toFixed(2) + 'deg');
-      card.style.setProperty('--glow-x', (x * 100).toFixed(1) + '%');
-      card.style.setProperty('--glow-y', (y * 100).toFixed(1) + '%');
-    });
-    card.addEventListener('pointerleave', () => {
-      card.style.setProperty('--tilt-x', '0deg');
-      card.style.setProperty('--tilt-y', '0deg');
-      card.style.setProperty('--glow-x', '50%');
-      card.style.setProperty('--glow-y', '50%');
-    });
-  });
-
-  if (!reduceMotion && 'IntersectionObserver' in window) {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        entry.target.classList.toggle('is-visible', entry.isIntersecting);
-      });
-    }, { threshold: 0.08 });
-    document.querySelectorAll('h2, .project-card, #markdown-body > p, #markdown-body > table').forEach((el) => {
-      el.classList.add('reveal-on-scroll');
-      observer.observe(el);
-    });
-  } else {
-    document.querySelectorAll('.reveal-on-scroll').forEach((el) => el.classList.add('is-visible'));
-  }
 })();
