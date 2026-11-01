@@ -16,9 +16,34 @@
   cursor.setAttribute('aria-hidden', 'true');
   document.body.appendChild(cursor);
   if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    let lastTrailTime = 0;
+    let lastTrailPoint = null;
     window.addEventListener('pointermove', (event) => {
       cursor.style.transform = 'translate3d(' + event.clientX + 'px,' + event.clientY + 'px,0) translate(-50%,-50%)';
       cursor.classList.add('is-visible');
+
+      if (reduceMotion) return;
+      const now = performance.now();
+      const dx = lastTrailPoint ? event.clientX - lastTrailPoint.x : 0;
+      const dy = lastTrailPoint ? event.clientY - lastTrailPoint.y : 0;
+      const distance = Math.hypot(dx, dy);
+      if (now - lastTrailTime < 26 || distance < 5) return;
+
+      const trail = document.createElement('span');
+      const project = ['quicknote', 'tava', 'student'].find((name) => cursor.classList.contains('is-project-' + name));
+      trail.className = 'cursor-trail' + (project ? ' cursor-trail--' + project : '');
+      trail.style.left = event.clientX + 'px';
+      trail.style.top = event.clientY + 'px';
+      const length = Math.max(distance, 1);
+      const driftX = -dx / length * 9 + (Math.random() - 0.5) * 4;
+      const driftY = -dy / length * 9 + (Math.random() - 0.5) * 4;
+      trail.style.setProperty('--trail-dx', driftX.toFixed(1) + 'px');
+      trail.style.setProperty('--trail-dy', driftY.toFixed(1) + 'px');
+      document.body.appendChild(trail);
+      trail.addEventListener('animationend', () => trail.remove(), { once: true });
+
+      lastTrailTime = now;
+      lastTrailPoint = { x: event.clientX, y: event.clientY };
     }, { passive: true });
     window.addEventListener('pointerleave', () => cursor.classList.remove('is-visible'));
     const projectCursorIcons = {
