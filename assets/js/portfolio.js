@@ -37,6 +37,7 @@
       const length = Math.max(distance, 1);
       const driftX = -dx / length * 9 + (Math.random() - 0.5) * 4;
       const driftY = -dy / length * 9 + (Math.random() - 0.5) * 4;
+      trail.style.setProperty('--trail-angle', Math.atan2(dy, dx) * 180 / Math.PI + 'deg');
       trail.style.setProperty('--trail-dx', driftX.toFixed(1) + 'px');
       trail.style.setProperty('--trail-dy', driftY.toFixed(1) + 'px');
       document.body.appendChild(trail);
