@@ -909,3 +909,68 @@ a:hover, a:focus-visible { color: var(--accent-hover) !important; }
     margin-bottom: 26px;
   }
 }
+
+
+/* Small cursor traces that match the active project cursor. */
+.cursor-trail {
+  position: fixed;
+  z-index: 99998;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 8px rgba(123, 73, 255, .55);
+  opacity: 0;
+  pointer-events: none;
+  animation: cursor-trail-fade .58s ease-out forwards;
+}
+.cursor-trail--quicknote {
+  width: 9px;
+  height: 2px;
+  border-radius: 2px;
+  background: rgba(224, 220, 211, .8);
+  box-shadow: 0 0 3px rgba(224, 220, 211, .25);
+}
+.cursor-trail--tava {
+  width: 7px;
+  height: 4px;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.cursor-trail--tava::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-left: 1.5px solid rgba(196, 176, 255, .9);
+  border-bottom: 1.5px solid rgba(196, 176, 255, .9);
+}
+.cursor-trail--student {
+  width: 5px;
+  height: 7px;
+  border-radius: 1px;
+  background: rgba(255, 255, 255, .68);
+  box-shadow: none;
+}
+.cursor-trail--student::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 1px;
+  right: 1px;
+  height: 1px;
+  background: rgba(80, 76, 88, .75);
+}
+@keyframes cursor-trail-fade {
+  0% {
+    opacity: .82;
+    transform: translate(-50%, -50%) rotate(var(--trail-angle, 35deg)) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) translate(var(--trail-dx), var(--trail-dy)) rotate(var(--trail-angle, 35deg)) scale(.18);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cursor-trail { display: none !important; }
+}
