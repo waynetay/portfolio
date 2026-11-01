@@ -24,8 +24,12 @@
 
       if (reduceMotion) return;
       const now = performance.now();
-      const dx = lastTrailPoint ? event.clientX - lastTrailPoint.x : 0;
-      const dy = lastTrailPoint ? event.clientY - lastTrailPoint.y : 0;
+      if (!lastTrailPoint) {
+        lastTrailPoint = { x: event.clientX, y: event.clientY };
+        return;
+      }
+      const dx = event.clientX - lastTrailPoint.x;
+      const dy = event.clientY - lastTrailPoint.y;
       const distance = Math.hypot(dx, dy);
       if (now - lastTrailTime < 26 || distance < 5) return;
 
