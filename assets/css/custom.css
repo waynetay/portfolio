@@ -870,7 +870,7 @@ a:hover, a:focus-visible { color: var(--accent-hover) !important; }
 .interactive-hero {
   background: radial-gradient(ellipse at 50% 45%, rgba(123, 73, 255, .08), transparent 58%), var(--page);
 }
-.hero-title span { color: var(--accent) !important; }
+.hero-title span { color: #fff !important; }
 .hero-cta { border-color: rgba(123, 73, 255, .5); }
 .hero-cta:hover { background: rgba(123, 73, 255, .1); }
 .status-dot { box-shadow: 0 0 10px rgba(123, 73, 255, .45); }
