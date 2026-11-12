@@ -53,7 +53,7 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
       <li><strong>Minimal interface:</strong> A distraction-free notepad and a compact quick-note control.</li>
     </ul>
     <div class="project-links"><a href="https://github.com/waynetay/quicknote">View repository ↗</a></div>
-    <div class="project-links"><a href="https://waynetay.github.io/portfolio/quicknote/">Quicknote website ↗</a></div>
+    <div class="project-links"><a class="quicknote-site-cta" href="https://waynetay.github.io/portfolio/quicknote/">Visit the Quicknote website <span aria-hidden="true">↗</span></a></div>
     <div class="project-links"><a href="https://github.com/waynetay/quicknote/releases/tag/v1.3">Download v1.3 ↗</a></div>
     <div class="project-screenshots">
       <img src="assets/images/Screenshot%202026-10-18%20at%2014.23.20.png" alt="quicknote notepad interface">
