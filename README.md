@@ -108,7 +108,7 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
 
 ### SST Inc.
 
-[Visit SST Inc.](https://www.sstinc.org)
+<a class="organization-mark" href="https://www.sstinc.org" target="_blank" rel="noopener"><img src="https://static.wixstatic.com/media/2d5018_0a3f933d28774a54aca6724d1586bc90~mv2.png/v1/crop/x_164,y_302,w_671,h_384/fill/w_408,h_234,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SST%20INC%20Logo.png" alt="Official SST Inc. logo"></a>
 
 A member for two years and counting, gaining experience in mobile application development.
 
@@ -118,7 +118,7 @@ A member for two years and counting, gaining experience in mobile application de
 
 ### ARC@SST — Applied Research Club
 
-[Visit ARC@SST](https://www.sst.edu.sg/applied-research-club-arc-sst/)
+<a class="organization-mark organization-mark-school" href="https://www.sst.edu.sg/student-experience/cca/applied-research-club-arc-sst/" target="_blank" rel="noopener"><img src="https://isomer-user-content.by.gov.sg/850/1b27427d-416b-476f-99ef-d2cc53e870f3/SST_favicon.png" alt="School of Science and Technology logo for ARC@SST"></a>
 
 A member of the first batch of ARC@SST, participating in applied research and school activities.
 
