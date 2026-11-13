@@ -1039,3 +1039,17 @@ a:hover, a:focus-visible { color: var(--accent-hover) !important; }
 @media (max-width: 640px) {
   .project-screenshots.quicknote-screenshots img { width: 66% !important; }
 }
+
+.organization-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 58px;
+  margin: 8px 0 14px;
+  padding: 7px 12px;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 10px;
+  background: rgba(255,255,255,.035);
+}
+.organization-mark img { display: block; width: auto; max-width: 150px; max-height: 44px; object-fit: contain; }
+.organization-mark-school img { width: 44px; height: 44px; }
