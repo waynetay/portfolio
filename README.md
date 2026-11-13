@@ -18,8 +18,6 @@ I'm a student developer with **5 years of programming experience** and an intere
 - **Research:** Applied research and school project work
 - **Involvement:** SST Inc. and ARC@SST
 
-- **Involvement:** SST Inc. and ARC@SST
-
 ---
 
 <span id="featured-projects"></span>
@@ -40,7 +38,7 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
         <p class="project-meta">Swift · SwiftUI · macOS 13+ · Local persistence</p>
       </div>
     </div>
-    <p>A lightweight macOS notes app that stays in the menu bar, with a full Notepad and a compact Quick Note that can sit over other apps, including full-screen Spaces. Option–Q opens the Quick Note; Shift–Option–Q opens the Notepad. Notes save locally, and the interface uses Liquid Glass on macOS 26+ with a material fallback on earlier supported versions.</p>
+    <p>A lightweight notes app for macOS. Visit the Quicknote website to see the floating Quick Note and full Notepad in action.</p>
     <h4>Features</h4>
     <ul>
       <li><strong>Liquid Glass:</strong> Native glass styling on macOS 26+, with a compatible material fallback on older supported versions.</li>
@@ -54,8 +52,8 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
     </ul>
     <div class="project-links"><a class="quicknote-site-cta" href="https://waynetay.github.io/portfolio/quicknote/">Visit the Quicknote website <span aria-hidden="true">↗</span></a></div>
     <div class="project-links"><a href="https://github.com/waynetay/quicknote">View repository ↗</a></div>
-    <div class="project-links"><a href="https://github.com/waynetay/quicknote/releases/tag/v1.3">Download v1.3 ↗</a></div>
-    <div class="project-screenshots">
+    <div class="project-links"><a href="https://github.com/waynetay/quicknote/releases/tag/1.4">Download v1.4 ↗</a></div>
+    <div class="project-screenshots quicknote-screenshots">
       <img src="assets/images/Screenshot%202026-10-18%20at%2014.23.20.png" alt="quicknote notepad interface">
       <img src="assets/images/Screenshot%202026-10-18%20at%2014.23.33.png" alt="quicknote floating quick note">
     </div>
@@ -85,7 +83,7 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
   </article>
   <article class="project-card">
     <div class="project-card-heading">
-      <div class="project-monogram">CSV</div>
+      <div class="project-monogram">SMS</div>
       <div>
         <h3>Student Management System</h3>
         <p class="project-meta">Python · CSV</p>
@@ -131,17 +129,10 @@ A member of the first batch of ARC@SST, participating in applied research and sc
 
 ---
 
-## Miscellaneous
-
-- **Opportunity-X Science Fair (2026):** Presented a research project at an international science event.
-- **NIE Mathematics Challenge (2026):** Received a Merit Award while representing my school.
-- **Kids Learn Code, Rulang Primary School:** Participated in this service activity.
-
 ---
 
 ## Achievements
 
-Milestones from cybersecurity, Taekwondo, and academic achievement.
 ### Cybersecurity
 
 - **International Junior Cybersecurity Olympiad:** Bronze 33 placement.
@@ -149,15 +140,17 @@ Milestones from cybersecurity, Taekwondo, and academic achievement.
 ### Taekwondo
 
 - **Singapore Taekwondo Federation Poom 1:** Awarded on 18 April 2021.
-- [View Certificate](https://drive.google.com/file/d/1F4Jrqddo1XEp6kBksI6pMsvIzaTxAKm7/view?usp=sharing)
+<a class="certificate-preview" href="https://drive.google.com/file/d/1F4Jrqddo1XEp6kBksI6pMsvIzaTxAKm7/view?usp=sharing" target="_blank" rel="noopener"><img src="https://drive.google.com/thumbnail?id=1F4Jrqddo1XEp6kBksI6pMsvIzaTxAKm7&sz=w800" alt="Preview of Singapore Taekwondo Federation Poom 1 certificate"><span>Open certificate ↗</span></a>
         
 ### Academic Awards
 
-- [Edusave Certificate of Academic Achievement 2021](https://drive.google.com/file/d/13v4U1EePJa2iz3OSBa3FEcC_AtVcz4ez/view?usp=sharing)
-- [Edusave Certificate of Academic Achievement 2022](https://drive.google.com/file/d/1wORXn-IGtX-5c9DnIYzqm9u74HWrUszf/view?usp=sharing)
-- [Education Merit Award 2022](https://drive.google.com/file/d/1cCqGZaIMWQMYWtb4rDKcsaGLWLpfqPga/view?usp=sharing)
-- [Edusave Certificate of Academic Achievement 2023](https://drive.google.com/file/d/18zNMwwIXhKTkP1U0Sht0a6X8qY7iA0Kh/view?usp=sharing)
-- [Edusave Merit Bursary 2023](https://drive.google.com/file/d/1sm-piSqrv3Rb-sqzw69u9snZO7M7Mi7M/view?usp=sharing)
+<div class="certificate-carousel" aria-label="Academic certificate previews">
+  <a class="certificate-preview" href="https://drive.google.com/file/d/13v4U1EePJa2iz3OSBa3FEcC_AtVcz4ez/view?usp=sharing" target="_blank" rel="noopener"><img src="https://drive.google.com/thumbnail?id=13v4U1EePJa2iz3OSBa3FEcC_AtVcz4ez&amp;sz=w800" alt="Preview of Edusave Certificate of Academic Achievement 2021"><span>Edusave Certificate of Academic Achievement 2021 ↗</span></a>
+  <a class="certificate-preview" href="https://drive.google.com/file/d/1wORXn-IGtX-5c9DnIYzqm9u74HWrUszf/view?usp=sharing" target="_blank" rel="noopener"><img src="https://drive.google.com/thumbnail?id=1wORXn-IGtX-5c9DnIYzqm9u74HWrUszf&amp;sz=w800" alt="Preview of Edusave Certificate of Academic Achievement 2022"><span>Edusave Certificate of Academic Achievement 2022 ↗</span></a>
+  <a class="certificate-preview" href="https://drive.google.com/file/d/1cCqGZaIMWQMYWtb4rDKcsaGLWLpfqPga/view?usp=sharing" target="_blank" rel="noopener"><img src="https://drive.google.com/thumbnail?id=1cCqGZaIMWQMYWtb4rDKcsaGLWLpfqPga&amp;sz=w800" alt="Preview of Education Merit Award 2022"><span>Education Merit Award 2022 ↗</span></a>
+  <a class="certificate-preview" href="https://drive.google.com/file/d/18zNMwwIXhKTkP1U0Sht0a6X8qY7iA0Kh/view?usp=sharing" target="_blank" rel="noopener"><img src="https://drive.google.com/thumbnail?id=18zNMwwIXhKTkP1U0Sht0a6X8qY7iA0Kh&amp;sz=w800" alt="Preview of Edusave Certificate of Academic Achievement 2023"><span>Edusave Certificate of Academic Achievement 2023 ↗</span></a>
+  <a class="certificate-preview" href="https://drive.google.com/file/d/1sm-piSqrv3Rb-sqzw69u9snZO7M7Mi7M/view?usp=sharing" target="_blank" rel="noopener"><img src="https://drive.google.com/thumbnail?id=1sm-piSqrv3Rb-sqzw69u9snZO7M7Mi7M&amp;sz=w800" alt="Preview of Edusave Merit Bursary 2023"><span>Edusave Merit Bursary 2023 ↗</span></a>
+</div>
 
 ---
 
