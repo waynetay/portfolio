@@ -137,19 +137,15 @@ A member of the first batch of ARC@SST, participating in applied research and sc
 
 - **International Junior Cybersecurity Olympiad:** Bronze 33 placement.
         
-### Taekwondo
 
-- **Singapore Taekwondo Federation Poom 1:** Awarded on 18 April 2021.
-<a class="certificate-preview" href="https://drive.google.com/file/d/1F4Jrqddo1XEp6kBksI6pMsvIzaTxAKm7/view?usp=sharing" target="_blank" rel="noopener"><img src="https://drive.google.com/thumbnail?id=1F4Jrqddo1XEp6kBksI6pMsvIzaTxAKm7&sz=w800" alt="Preview of Singapore Taekwondo Federation Poom 1 certificate"><span>Open certificate ↗</span></a>
-        
 ### Academic Awards
 
 <div class="certificate-carousel" aria-label="Academic certificate previews">
-  <a class="certificate-preview" href="https://drive.google.com/file/d/13v4U1EePJa2iz3OSBa3FEcC_AtVcz4ez/view?usp=sharing" target="_blank" rel="noopener"><img src="https://drive.google.com/thumbnail?id=13v4U1EePJa2iz3OSBa3FEcC_AtVcz4ez&amp;sz=w800" alt="Preview of Edusave Certificate of Academic Achievement 2021"><span>Edusave Certificate of Academic Achievement 2021 ↗</span></a>
-  <a class="certificate-preview" href="https://drive.google.com/file/d/1wORXn-IGtX-5c9DnIYzqm9u74HWrUszf/view?usp=sharing" target="_blank" rel="noopener"><img src="https://drive.google.com/thumbnail?id=1wORXn-IGtX-5c9DnIYzqm9u74HWrUszf&amp;sz=w800" alt="Preview of Edusave Certificate of Academic Achievement 2022"><span>Edusave Certificate of Academic Achievement 2022 ↗</span></a>
-  <a class="certificate-preview" href="https://drive.google.com/file/d/1cCqGZaIMWQMYWtb4rDKcsaGLWLpfqPga/view?usp=sharing" target="_blank" rel="noopener"><img src="https://drive.google.com/thumbnail?id=1cCqGZaIMWQMYWtb4rDKcsaGLWLpfqPga&amp;sz=w800" alt="Preview of Education Merit Award 2022"><span>Education Merit Award 2022 ↗</span></a>
-  <a class="certificate-preview" href="https://drive.google.com/file/d/18zNMwwIXhKTkP1U0Sht0a6X8qY7iA0Kh/view?usp=sharing" target="_blank" rel="noopener"><img src="https://drive.google.com/thumbnail?id=18zNMwwIXhKTkP1U0Sht0a6X8qY7iA0Kh&amp;sz=w800" alt="Preview of Edusave Certificate of Academic Achievement 2023"><span>Edusave Certificate of Academic Achievement 2023 ↗</span></a>
-  <a class="certificate-preview" href="https://drive.google.com/file/d/1sm-piSqrv3Rb-sqzw69u9snZO7M7Mi7M/view?usp=sharing" target="_blank" rel="noopener"><img src="https://drive.google.com/thumbnail?id=1sm-piSqrv3Rb-sqzw69u9snZO7M7Mi7M&amp;sz=w800" alt="Preview of Edusave Merit Bursary 2023"><span>Edusave Merit Bursary 2023 ↗</span></a>
+  <a class="certificate-preview" href="https://drive.google.com/file/d/13v4U1EePJa2iz3OSBa3FEcC_AtVcz4ez/view?usp=sharing" target="_blank" rel="noopener"><img src="https://drive.google.com/thumbnail?id=13v4U1EePJa2iz3OSBa3FEcC_AtVcz4ez&amp;sz=w800" alt="Preview of Edusave Certificate of Academic Achievement 2021"></a>
+  <a class="certificate-preview" href="https://drive.google.com/file/d/1wORXn-IGtX-5c9DnIYzqm9u74HWrUszf/view?usp=sharing" target="_blank" rel="noopener"><img src="https://drive.google.com/thumbnail?id=1wORXn-IGtX-5c9DnIYzqm9u74HWrUszf&amp;sz=w800" alt="Preview of Edusave Certificate of Academic Achievement 2022"></a>
+  <a class="certificate-preview" href="https://drive.google.com/file/d/1cCqGZaIMWQMYWtb4rDKcsaGLWLpfqPga/view?usp=sharing" target="_blank" rel="noopener"><img src="https://drive.google.com/thumbnail?id=1cCqGZaIMWQMYWtb4rDKcsaGLWLpfqPga&amp;sz=w800" alt="Preview of Education Merit Award 2022"></a>
+  <a class="certificate-preview" href="https://drive.google.com/file/d/18zNMwwIXhKTkP1U0Sht0a6X8qY7iA0Kh/view?usp=sharing" target="_blank" rel="noopener"><img src="https://drive.google.com/thumbnail?id=18zNMwwIXhKTkP1U0Sht0a6X8qY7iA0Kh&amp;sz=w800" alt="Preview of Edusave Certificate of Academic Achievement 2023"></a>
+  <a class="certificate-preview" href="https://drive.google.com/file/d/1sm-piSqrv3Rb-sqzw69u9snZO7M7Mi7M/view?usp=sharing" target="_blank" rel="noopener"><img src="https://drive.google.com/thumbnail?id=1sm-piSqrv3Rb-sqzw69u9snZO7M7Mi7M&amp;sz=w800" alt="Preview of Edusave Merit Bursary 2023"></a>
 </div>
 
 ---
