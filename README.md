@@ -38,7 +38,7 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
         <p class="project-meta">Swift · SwiftUI · macOS 13+ · Local persistence</p>
       </div>
     </div>
-    <p>A lightweight notes app for macOS. Visit the quicknote website to see the floating quicknote and full Notepad in action.</p>
+    <p>A lightweight notes app for macOS. Visit the quicknote website to see the floating quicknote and full Notepad in action. v1.4 brings a polished UI and bug fixes.</p>
     <h4>Features</h4>
     <ul>
       <li><strong>Liquid Glass:</strong> Native glass styling on macOS 26+, with a compatible material fallback on older supported versions.</li>
