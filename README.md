@@ -38,7 +38,7 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
         <p class="project-meta">Swift · SwiftUI · macOS 13+ · Local persistence</p>
       </div>
     </div>
-    <p>A lightweight notes app for macOS. Visit the quicknote website to see the floating quicknote and full Notepad in action. v1.4 brings a polished UI and bug fixes.</p>
+    <p>A lightweight notes app for macOS. Visit the quicknote website to see the floating quicknote and full Notepad in action. v1.5 brings a polished UI and bug fixes.</p>
     <h4>Features</h4>
     <ul>
       <li><strong>Liquid Glass:</strong> Native glass styling on macOS 26+, with a compatible material fallback on older supported versions.</li>
@@ -52,7 +52,7 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
     </ul>
     <div class="project-links"><a class="quicknote-site-cta" href="https://waynetay.github.io/portfolio/quicknote/">Visit the quicknote website <span aria-hidden="true">↗</span></a></div>
     <div class="project-links"><a href="https://github.com/waynetay/quicknote">View repository ↗</a></div>
-    <div class="project-links"><a href="https://github.com/waynetay/quicknote/releases/tag/1.4">Download v1.4 ↗</a></div>
+    <div class="project-links"><a href="https://github.com/waynetay/quicknote/releases/tag/1.5">Download v1.5 ↗</a></div>
     <div class="project-screenshots quicknote-screenshots">
       <img src="assets/images/Screenshot%202026-10-18%20at%2014.23.20.png" alt="quicknote notepad interface">
       <img src="assets/images/Screenshot%202026-10-18%20at%2014.23.33.png" alt="quicknote floating quicknote">
