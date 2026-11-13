@@ -976,7 +976,7 @@ a:hover, a:focus-visible { color: var(--accent-hover) !important; }
 }
 
 
-/* Make the Quicknote product page easy to find from its portfolio card. */
+/* Make the quicknote product page easy to find from its portfolio card. */
 .quicknote-site-cta {
   display: inline-flex;
   align-items: center;
