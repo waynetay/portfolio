@@ -38,11 +38,11 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
         <p class="project-meta">Swift · SwiftUI · macOS 13+ · Local persistence</p>
       </div>
     </div>
-    <p>A lightweight notes app for macOS. Visit the quicknote website to see the floating quicknote and full Notepad in action. v1.7 gives the floating quicknote the same solid surface as Notepad and fixes the header drag area.</p>
+    <p>A lightweight notes app for macOS. Visit the quicknote website to see the floating quicknote and full Notepad in action. v1.7 matches the floating quicknote to Notepad, fixes its header drag area, and lets the Notepad toolbar button toggle it.</p>
     <h4>Features</h4>
     <ul>
       <li><strong>Matching interface:</strong> The floating quicknote uses the same solid dark surface as Notepad, with a subtle purple tint.</li>
-      <li><strong>Floating quicknote:</strong> Open it with Option–Q; its header supports dragging and it can sit over other apps, including full-screen Spaces.</li>
+      <li><strong>Floating quicknote:</strong> Open it with Option–Q or the Notepad toolbar button; both toggle it, and its header supports dragging.</li>
       <li><strong>Full Notepad:</strong> Open it with Shift–Option–Q, even when the main window is closed.</li>
       <li><strong>Menu bar access:</strong> quicknote can stay available in the background and launch at login.</li>
       <li><strong>Two independent notes:</strong> The Notepad and quicknote retain separate content.</li>
