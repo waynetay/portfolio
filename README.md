@@ -38,10 +38,10 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
         <p class="project-meta">Swift · SwiftUI · macOS 13+ · Local persistence</p>
       </div>
     </div>
-    <p>A lightweight notes app for macOS. Visit the quicknote website to see the floating quicknote and full Notepad in action. v1.6 brings a unified window design and a cleaner floating quicknote.</p>
+    <p>A lightweight notes app for macOS. Visit the quicknote website to see the floating quicknote and full Notepad in action. v1.7 adds a solid tinted glass surface and restores dragging for the floating quicknote.</p>
     <h4>Features</h4>
     <ul>
-      <li><strong>Liquid Glass:</strong> Native glass styling on macOS 26+, with a compatible material fallback on older supported versions.</li>
+      <li><strong>Tinted Liquid Glass:</strong> The floating quicknote has a solid dark surface with a subtle glass tint.</li>
       <li><strong>Floating quicknote:</strong> Open it with Option–Q; it can sit over other apps, including full-screen Spaces.</li>
       <li><strong>Full Notepad:</strong> Open it with Shift–Option–Q, even when the main window is closed.</li>
       <li><strong>Menu bar access:</strong> quicknote can stay available in the background and launch at login.</li>
@@ -52,7 +52,7 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
     </ul>
     <div class="project-links"><a class="quicknote-site-cta" href="https://waynetay.github.io/portfolio/quicknote/">Visit the quicknote website <span aria-hidden="true">↗</span></a></div>
     <div class="project-links"><a href="https://github.com/waynetay/quicknote">View repository ↗</a></div>
-    <div class="project-links"><a href="https://github.com/waynetay/quicknote/releases/tag/1.6">Download v1.6 ↗</a></div>
+    <div class="project-links"><a href="https://github.com/waynetay/quicknote/releases/tag/1.7">Download v1.7 ↗</a></div>
     <div class="project-screenshots quicknote-screenshots">
       <img src="assets/images/Screenshot%202026-10-18%20at%2014.23.20.png" alt="quicknote notepad interface">
       <img src="assets/images/Screenshot%202026-10-18%20at%2014.23.33.png" alt="quicknote floating quicknote">
