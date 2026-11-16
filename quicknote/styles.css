@@ -402,3 +402,41 @@ h1 span, h2 span { color: var(--text); }
   .hero-copy { max-width: none; }
   .preview { width: auto; }
 }
+
+
+/* Full Notepad mockup below the hero sample. */
+.notepad-showcase {
+  width: min(var(--content), calc(100% - 52px));
+  margin: 0 auto 84px;
+}
+.notepad-showcase .preview {
+  display: block;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.16);
+  border-radius: 19px;
+  background: #131316;
+  box-shadow: 0 28px 72px rgba(0,0,0,.38);
+}
+.notepad-showcase .preview-window-bar { display: flex; }
+.notepad-showcase .preview-stage,
+.notepad-showcase .preview-desktop {
+  height: auto;
+  min-height: 0;
+  overflow: visible;
+  padding: 16px;
+  background: #131316;
+}
+.notepad-showcase .preview-main {
+  display: block;
+  min-height: 0;
+  width: 100%;
+}
+.notepad-showcase .preview-notepad-body { padding: 24px; }
+.notepad-showcase .preview-editor { min-height: 300px; }
+@media (max-width: 620px) {
+  .notepad-showcase { width: calc(100% - 40px); margin-bottom: 64px; }
+  .notepad-showcase .preview-desktop { display: block; padding: 11px; }
+  .notepad-showcase .preview-notepad-body { padding: 19px 15px 18px; }
+  .notepad-showcase .preview-editor { min-height: 220px; }
+}
