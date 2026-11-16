@@ -155,66 +155,96 @@
   </footer>
   <script>
     (() => {
-      const stage = document.querySelector("#preview .preview-desktop");
-      const windowNode = document.querySelector("#preview .preview-float");
-      const handle = document.querySelector("#preview [data-drag-handle]");
-      if (!stage || !windowNode || !handle) return;
+      const floatingNote = document.querySelector("#preview .preview-float");
+      const dragHandle = document.querySelector("#preview [data-drag-handle]");
+      if (!floatingNote || !dragHandle) return;
+
+      const clamp = (value, min, max) => Math.min(Math.max(value, min), Math.max(min, max));
+      const viewportBounds = () => ({
+        maxX: window.innerWidth - floatingNote.offsetWidth - 12,
+        maxY: window.innerHeight - floatingNote.offsetHeight - 12
+      });
+
+      const initialRect = floatingNote.getBoundingClientRect();
+      floatingNote.classList.add("is-site-floating");
+      document.body.appendChild(floatingNote);
+      const initialBounds = viewportBounds();
+      floatingNote.style.left = clamp(initialRect.left, 12, initialBounds.maxX) + "px";
+      floatingNote.style.top = clamp(initialRect.top, 12, initialBounds.maxY) + "px";
+      floatingNote.style.right = "auto";
 
       let activePointer = null;
-      let origin = null;
-      const clamp = (value, min, max) => Math.min(Math.max(value, min), Math.max(min, max));
-
-      const setAbsolutePosition = () => {
-        const stageRect = stage.getBoundingClientRect();
-        const windowRect = windowNode.getBoundingClientRect();
-        if (!windowNode.style.left) {
-          windowNode.style.left = `${windowRect.left - stageRect.left}px`;
-          windowNode.style.top = `${windowRect.top - stageRect.top}px`;
-          windowNode.style.right = "auto";
-        }
-      };
-
-      handle.addEventListener("pointerdown", (event) => {
-        if (window.getComputedStyle(windowNode).position !== "absolute" || event.button !== 0) return;
+      let dragOrigin = null;
+      dragHandle.addEventListener("pointerdown", (event) => {
+        if (event.button !== 0) return;
         event.preventDefault();
-        setAbsolutePosition();
         activePointer = event.pointerId;
-        origin = {
+        dragOrigin = {
           pointerX: event.clientX,
           pointerY: event.clientY,
-          left: parseFloat(windowNode.style.left),
-          top: parseFloat(windowNode.style.top)
+          left: parseFloat(floatingNote.style.left) || 12,
+          top: parseFloat(floatingNote.style.top) || 12
         };
-        handle.classList.add("is-dragging");
-        handle.setPointerCapture(event.pointerId);
+        dragHandle.classList.add("is-dragging");
+        dragHandle.setPointerCapture(event.pointerId);
       });
-
-      handle.addEventListener("pointermove", (event) => {
-        if (event.pointerId !== activePointer || !origin) return;
-        windowNode.style.left = `${clamp(origin.left + event.clientX - origin.pointerX, 0, stage.clientWidth - windowNode.offsetWidth)}px`;
-        windowNode.style.top = `${clamp(origin.top + event.clientY - origin.pointerY, 0, stage.clientHeight - windowNode.offsetHeight)}px`;
+      dragHandle.addEventListener("pointermove", (event) => {
+        if (event.pointerId !== activePointer || !dragOrigin) return;
+        const bounds = viewportBounds();
+        floatingNote.style.left = clamp(dragOrigin.left + event.clientX - dragOrigin.pointerX, 12, bounds.maxX) + "px";
+        floatingNote.style.top = clamp(dragOrigin.top + event.clientY - dragOrigin.pointerY, 12, bounds.maxY) + "px";
       });
-
       const stopDragging = (event) => {
         if (event.pointerId !== activePointer) return;
         activePointer = null;
-        origin = null;
-        handle.classList.remove("is-dragging");
+        dragOrigin = null;
+        dragHandle.classList.remove("is-dragging");
       };
-      handle.addEventListener("pointerup", stopDragging);
-      handle.addEventListener("pointercancel", stopDragging);
-
-      handle.addEventListener("keydown", (event) => {
-        const delta = event.shiftKey ? 24 : 12;
-        const offsets = { ArrowLeft: [-delta, 0], ArrowRight: [delta, 0], ArrowUp: [0, -delta], ArrowDown: [0, delta] };
-        const offset = offsets[event.key];
-        if (!offset || window.getComputedStyle(windowNode).position !== "absolute") return;
+      dragHandle.addEventListener("pointerup", stopDragging);
+      dragHandle.addEventListener("pointercancel", stopDragging);
+      dragHandle.addEventListener("keydown", (event) => {
+        const step = event.shiftKey ? 24 : 12;
+        const move = { ArrowLeft: [-step, 0], ArrowRight: [step, 0], ArrowUp: [0, -step], ArrowDown: [0, step] }[event.key];
+        if (!move) return;
         event.preventDefault();
-        setAbsolutePosition();
-        windowNode.style.left = `${clamp(parseFloat(windowNode.style.left) + offset[0], 0, stage.clientWidth - windowNode.offsetWidth)}px`;
-        windowNode.style.top = `${clamp(parseFloat(windowNode.style.top) + offset[1], 0, stage.clientHeight - windowNode.offsetHeight)}px`;
+        const bounds = viewportBounds();
+        floatingNote.style.left = clamp((parseFloat(floatingNote.style.left) || 12) + move[0], 12, bounds.maxX) + "px";
+        floatingNote.style.top = clamp((parseFloat(floatingNote.style.top) || 12) + move[1], 12, bounds.maxY) + "px";
       });
+      window.addEventListener("resize", () => {
+        const bounds = viewportBounds();
+        floatingNote.style.left = clamp(parseFloat(floatingNote.style.left) || 12, 12, bounds.maxX) + "px";
+        floatingNote.style.top = clamp(parseFloat(floatingNote.style.top) || 12, 12, bounds.maxY) + "px";
+      });
+
+      if (window.matchMedia("(hover: hover) and (pointer: fine)").matches &&
+          !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        let lastTrailTime = 0;
+        let lastTrailPoint = null;
+        window.addEventListener("pointermove", (event) => {
+          const now = performance.now();
+          if (!lastTrailPoint) {
+            lastTrailPoint = { x: event.clientX, y: event.clientY };
+            return;
+          }
+          const dx = event.clientX - lastTrailPoint.x;
+          const dy = event.clientY - lastTrailPoint.y;
+          if (now - lastTrailTime < 26 || Math.hypot(dx, dy) < 5) return;
+
+          const trail = document.createElement("span");
+          trail.className = "graphite-trail";
+          trail.style.left = event.clientX + "px";
+          trail.style.top = event.clientY + "px";
+          const length = Math.max(Math.hypot(dx, dy), 1);
+          trail.style.setProperty("--trail-angle", Math.atan2(dy, dx) * 180 / Math.PI + "deg");
+          trail.style.setProperty("--trail-dx", (-dx / length * 9).toFixed(1) + "px");
+          trail.style.setProperty("--trail-dy", (-dy / length * 9).toFixed(1) + "px");
+          document.body.appendChild(trail);
+          trail.addEventListener("animationend", () => trail.remove(), { once: true });
+          lastTrailTime = now;
+          lastTrailPoint = { x: event.clientX, y: event.clientY };
+        }, { passive: true });
+      }
     })();
-  </script>
-</body>
+  </script></body>
 </html>
