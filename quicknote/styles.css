@@ -392,3 +392,13 @@ h1 span, h2 span { color: var(--text); }
   .preview { width: 100%; }
   .preview-float { margin-inline: auto; }
 }
+
+@media (min-width: 761px) and (max-width: 980px) {
+  .hero {
+    grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+    align-items: center;
+    gap: clamp(24px, 4vw, 42px);
+  }
+  .hero-copy { max-width: none; }
+  .preview { width: auto; }
+}
