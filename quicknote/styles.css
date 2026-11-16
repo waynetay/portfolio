@@ -240,21 +240,14 @@ h1 span, h2 span { color: var(--text); }
   font-size: .78rem;
 }
 .preview-note-icon {
-  width: 14px;
-  height: 14px;
-  position: relative;
-  border: 1.5px solid var(--accent);
-  border-radius: 3px;
+  display: block;
+  flex: 0 0 16px;
+  width: 16px;
+  height: 16px;
+  object-fit: cover;
+  border-radius: 4px;
 }
-.preview-note-icon::after {
-  content: "";
-  position: absolute;
-  left: 3px;
-  right: 3px;
-  top: 5px;
-  height: 1px;
-  background: var(--accent);
-}
+.preview-drag-indicator { color: var(--muted); font-size: 1rem; line-height: 1; letter-spacing: -.08em; }
 .preview-saved { margin-left: auto; color: var(--muted); font-size: .56rem; font-weight: 700; letter-spacing: .08em; }
 .preview-close { color: #aaa8b0; font-size: 1.1rem; line-height: 1; }
 .preview-notepad-body { padding: 19px 15px 18px; }
@@ -308,13 +301,6 @@ h1 span, h2 span { color: var(--text); }
   min-height: 190px;
   margin: 10px;
   padding: 14px 12px;
-}
-.preview-caption {
-  margin: 0;
-  padding: 8px 13px;
-  border-top: 1px solid rgba(255,255,255,.08);
-  color: var(--muted);
-  font-size: .68rem;
 }
 @media (max-width: 980px) {
   .preview { max-height: none; }
