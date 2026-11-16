@@ -357,3 +357,38 @@ h1 span, h2 span { color: var(--text); }
 @media (prefers-reduced-motion: reduce) {
   .graphite-trail { display: none !important; }
 }
+
+
+/* Keep the quicknote sample beside the hero copy as a page element. */
+.hero { position: relative; }
+.preview {
+  display: block;
+  align-self: center;
+  padding: 0;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.preview-window-bar,
+.preview-main { display: none; }
+.preview-stage,
+.preview-desktop {
+  height: auto;
+  min-height: 0;
+  overflow: visible;
+  padding: 0;
+  background: transparent;
+}
+.preview-float {
+  position: relative;
+  top: auto;
+  right: auto;
+  width: min(100%, 540px);
+  margin: 0 0 0 auto;
+}
+@media (max-width: 980px) {
+  .preview { width: 100%; }
+  .preview-float { margin-inline: auto; }
+}
