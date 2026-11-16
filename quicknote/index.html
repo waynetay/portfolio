@@ -45,7 +45,7 @@
           <span class="preview-app-name">quicknote</span>
           <span class="preview-window-toggle" aria-label="Toggle quicknote"><i aria-hidden="true"></i></span>
         </div>
-        <div class="preview-scroll" role="region" aria-label="Scroll through the quicknote window preview" tabindex="0">
+        <div class="preview-stage">
           <div class="preview-desktop">
             <section class="preview-main" aria-label="Notepad preview">
               <div class="preview-note-header">
@@ -66,7 +66,7 @@
               </div>
             </section>
             <section class="preview-float" aria-label="Floating quicknote preview">
-              <div class="preview-note-header">
+              <div class="preview-note-header preview-drag-handle" data-drag-handle tabindex="0" aria-label="Drag quicknote to move it; use arrow keys to reposition">
                 <span class="preview-note-icon" aria-hidden="true"></span>
                 <strong>quicknote</strong>
                 <span class="preview-saved">AUTOSAVED</span>
@@ -80,7 +80,7 @@
             </section>
           </div>
         </div>
-        <p class="preview-caption">Scroll inside the window to explore both notes.</p>
+        
       </div>
     </section>
 
@@ -152,5 +152,68 @@
       <a href="https://waynetay.github.io/portfolio/">Wayne’s portfolio</a>
     </div>
   </footer>
+  <script>
+    (() => {
+      const stage = document.querySelector("#preview .preview-desktop");
+      const windowNode = document.querySelector("#preview .preview-float");
+      const handle = document.querySelector("#preview [data-drag-handle]");
+      if (!stage || !windowNode || !handle) return;
+
+      let activePointer = null;
+      let origin = null;
+      const clamp = (value, min, max) => Math.min(Math.max(value, min), Math.max(min, max));
+
+      const setAbsolutePosition = () => {
+        const stageRect = stage.getBoundingClientRect();
+        const windowRect = windowNode.getBoundingClientRect();
+        if (!windowNode.style.left) {
+          windowNode.style.left = `${windowRect.left - stageRect.left}px`;
+          windowNode.style.top = `${windowRect.top - stageRect.top}px`;
+          windowNode.style.right = "auto";
+        }
+      };
+
+      handle.addEventListener("pointerdown", (event) => {
+        if (window.getComputedStyle(windowNode).position !== "absolute" || event.button !== 0) return;
+        event.preventDefault();
+        setAbsolutePosition();
+        activePointer = event.pointerId;
+        origin = {
+          pointerX: event.clientX,
+          pointerY: event.clientY,
+          left: parseFloat(windowNode.style.left),
+          top: parseFloat(windowNode.style.top)
+        };
+        handle.classList.add("is-dragging");
+        handle.setPointerCapture(event.pointerId);
+      });
+
+      handle.addEventListener("pointermove", (event) => {
+        if (event.pointerId !== activePointer || !origin) return;
+        windowNode.style.left = `${clamp(origin.left + event.clientX - origin.pointerX, 0, stage.clientWidth - windowNode.offsetWidth)}px`;
+        windowNode.style.top = `${clamp(origin.top + event.clientY - origin.pointerY, 0, stage.clientHeight - windowNode.offsetHeight)}px`;
+      });
+
+      const stopDragging = (event) => {
+        if (event.pointerId !== activePointer) return;
+        activePointer = null;
+        origin = null;
+        handle.classList.remove("is-dragging");
+      };
+      handle.addEventListener("pointerup", stopDragging);
+      handle.addEventListener("pointercancel", stopDragging);
+
+      handle.addEventListener("keydown", (event) => {
+        const delta = event.shiftKey ? 24 : 12;
+        const offsets = { ArrowLeft: [-delta, 0], ArrowRight: [delta, 0], ArrowUp: [0, -delta], ArrowDown: [0, delta] };
+        const offset = offsets[event.key];
+        if (!offset || window.getComputedStyle(windowNode).position !== "absolute") return;
+        event.preventDefault();
+        setAbsolutePosition();
+        windowNode.style.left = `${clamp(parseFloat(windowNode.style.left) + offset[0], 0, stage.clientWidth - windowNode.offsetWidth)}px`;
+        windowNode.style.top = `${clamp(parseFloat(windowNode.style.top) + offset[1], 0, stage.clientHeight - windowNode.offsetHeight)}px`;
+      });
+    })();
+  </script>
 </body>
 </html>
