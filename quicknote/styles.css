@@ -325,14 +325,6 @@ h1 span, h2 span { color: var(--text); }
   .preview-float-editor { max-height: none; min-height: 150px; }
 }
 
-.preview-drag-handle {
-  touch-action: none;
-  user-select: none;
-}
-.preview-drag-handle:focus-visible { outline: 2px solid var(--accent-light); outline-offset: -2px; }
-@media (max-width: 620px) {
-  .preview-drag-handle { touch-action: auto; }
-}
 
 @media (hover: hover) and (pointer: fine) {
   html, body, *, *::before, *::after {
@@ -340,12 +332,6 @@ h1 span, h2 span { color: var(--text); }
   }
 }
 
-.preview-float.is-site-floating {
-  position: fixed;
-  z-index: 99999;
-  width: min(340px, calc(100vw - 32px));
-  margin: 0;
-}
 .graphite-trail {
   position: fixed;
   z-index: 99998;
