@@ -240,12 +240,20 @@ h1 span, h2 span { color: var(--text); }
   font-size: .78rem;
 }
 .preview-note-icon {
-  display: block;
-  flex: 0 0 16px;
-  width: 16px;
-  height: 16px;
-  object-fit: cover;
-  border-radius: 4px;
+  width: 14px;
+  height: 14px;
+  position: relative;
+  border: 1.5px solid var(--accent);
+  border-radius: 3px;
+}
+.preview-note-icon::after {
+  content: "";
+  position: absolute;
+  left: 3px;
+  right: 3px;
+  top: 5px;
+  height: 1px;
+  background: var(--accent);
 }
 .preview-drag-indicator { color: var(--muted); font-size: 1rem; line-height: 1; letter-spacing: -.08em; }
 .preview-saved { margin-left: auto; color: var(--muted); font-size: .56rem; font-weight: 700; letter-spacing: .08em; }
@@ -318,12 +326,16 @@ h1 span, h2 span { color: var(--text); }
 }
 
 .preview-drag-handle {
-  cursor: grab;
   touch-action: none;
   user-select: none;
 }
-.preview-drag-handle.is-dragging { cursor: grabbing; }
 .preview-drag-handle:focus-visible { outline: 2px solid var(--accent-light); outline-offset: -2px; }
 @media (max-width: 620px) {
-  .preview-drag-handle { cursor: default; touch-action: auto; }
+  .preview-drag-handle { touch-action: auto; }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  html, body, *, *::before, *::after {
+    cursor: url("pencil-cursor.svg") 4 20, auto !important;
+  }
 }
