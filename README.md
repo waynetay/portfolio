@@ -35,28 +35,18 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
       <img src="assets/images/AppIcon.png" alt="quicknote app icon" width="84">
       <div>
         <h3>quicknote — Native macOS Notes App</h3>
-        <p class="project-meta">Swift · SwiftUI · macOS 13+ · Local persistence</p>
+        <p class="project-meta">Swift · SwiftUI · macOS 13+</p>
       </div>
     </div>
-    <p>A lightweight notes app for macOS. Visit the quicknote website to see the floating quicknote and full Notepad in action. v1.7 matches the floating quicknote to Notepad, fixes its header drag area, and lets the Notepad toolbar button toggle it.</p>
-    <h4>Features</h4>
+    <p>A small notes app for macOS: a floating quicknote for fast capture, and a full Notepad when you need room. Notes save separately on your Mac.</p>
     <ul>
-      <li><strong>Matching interface:</strong> The floating quicknote uses the same solid dark surface as Notepad, with a subtle purple tint.</li>
-      <li><strong>Floating quicknote:</strong> Open it with Option–Q or the Notepad toolbar button; both toggle it, and its header supports dragging.</li>
-      <li><strong>Full Notepad:</strong> Open it with Shift–Option–Q, even when the main window is closed.</li>
-      <li><strong>Menu bar access:</strong> quicknote can stay available in the background and launch at login.</li>
-      <li><strong>Two independent notes:</strong> The Notepad and quicknote retain separate content.</li>
-      <li><strong>Autosave:</strong> Notes persist locally after quitting and reopening the app.</li>
-      <li><strong>Privacy-first and offline:</strong> Note contents stay on the Mac and are not sent to a remote server.</li>
-      <li><strong>Minimal interface:</strong> A distraction-free notepad and a compact quick-note control.</li>
+      <li><strong>⌥Q:</strong> Toggle the floating quicknote.</li>
+      <li><strong>⇧⌥Q:</strong> Open the full Notepad.</li>
+      <li>Drag the floating window by its header; use the Notepad toolbar button to toggle it.</li>
     </ul>
     <div class="project-links"><a class="quicknote-site-cta" href="https://waynetay.github.io/portfolio/quicknote/">Visit the quicknote website <span aria-hidden="true">↗</span></a></div>
-    <div class="project-links"><a href="https://github.com/waynetay/quicknote">View repository ↗</a></div>
     <div class="project-links"><a href="https://github.com/waynetay/quicknote/releases/tag/1.7">Download v1.7 ↗</a></div>
-    <div class="project-screenshots quicknote-screenshots">
-      <img src="assets/images/Screenshot%202026-10-18%20at%2014.23.20.png" alt="quicknote notepad interface">
-      <img src="assets/images/Screenshot%202026-10-18%20at%2014.23.33.png" alt="quicknote floating quicknote">
-    </div>
+    <iframe class="quicknote-preview-frame" src="https://waynetay.github.io/portfolio/quicknote/#preview" title="Scrollable quicknote website and app window preview" loading="lazy"></iframe>
   </article>
   <article class="project-card">
     <div class="project-card-heading">
