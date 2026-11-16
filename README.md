@@ -38,17 +38,18 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
         <p class="project-meta">Swift · SwiftUI · macOS 13+</p>
       </div>
     </div>
-    <p>A small macOS notes app for quick captures and longer thoughts.</p>
+    <p>A small macOS notes app with quick capture, Notepad, and rich text formatting.</p>
     <h4>Quick features</h4>
     <ul>
       <li>⌥Q · Floating Quick Note</li>
       <li>⇧⌥Q · Full Notepad</li>
       <li>Local autosave</li>
+      <li>Bold · Italic · Underline · Strikethrough</li>
       <li>Draggable floating window</li>
       <li>Toolbar toggle</li>
     </ul>
     <div class="project-links"><a class="quicknote-site-cta" href="https://waynetay.github.io/portfolio/quicknote/">Visit the quicknote website <span aria-hidden="true">↗</span></a></div>
-    <div class="project-links"><a href="https://github.com/waynetay/quicknote/releases/tag/1.7">Download v1.7 ↗</a></div>
+    <div class="project-links"><a href="https://github.com/waynetay/quicknote/releases/tag/1.8">Download v1.8 ↗</a></div>
   </article>
   <article class="project-card">
     <div class="project-card-heading">
