@@ -440,3 +440,27 @@ h1 span, h2 span { color: var(--text); }
   .notepad-showcase .preview-notepad-body { padding: 19px 15px 18px; }
   .notepad-showcase .preview-editor { min-height: 220px; }
 }
+
+
+.preview-format-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  min-height: 30px;
+  padding: 5px 12px 0;
+  color: #d9d7df;
+  font-size: .72rem;
+}
+.preview-format-toolbar span {
+  min-width: 22px;
+  height: 22px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(255,255,255,.11);
+  border-radius: 5px;
+  background: rgba(255,255,255,.035);
+}
+.feature-list { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 980px) {
+  .feature-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
