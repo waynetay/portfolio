@@ -489,3 +489,12 @@ h1 span, h2 span { color: var(--text); }
   border-radius: 0;
   box-shadow: none;
 }
+
+
+/* Trim the thin window-edge artifacts baked into the supplied screenshots. */
+.hero .preview-float img {
+  clip-path: inset(1.2%);
+}
+.notepad-showcase .preview-main img {
+  clip-path: inset(.8%);
+}
