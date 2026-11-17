@@ -39,6 +39,10 @@ A selection of projects I've built and contributed to. Scroll sideways or swipe 
       </div>
     </div>
     <p>A small macOS notes app with quick capture, Notepad, and rich text formatting.</p>
+    <div class="project-screenshots" aria-label="quicknote app screenshots">
+      <img src="assets/images/quicknote-floating.png" alt="quicknote floating note window">
+      <img src="assets/images/quicknote-notepad.png" alt="quicknote full Notepad window">
+    </div>
     <h4>Quick features</h4>
     <ul>
       <li>⌥Q · Floating Quick Note</li>
