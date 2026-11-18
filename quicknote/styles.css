@@ -498,3 +498,52 @@ h1 span, h2 span { color: var(--text); }
 .notepad-showcase .preview-main img {
   clip-path: inset(.8%);
 }
+
+
+/* A quieter, more balanced Notepad showcase. */
+.notepad-showcase {
+  margin: 10px auto 104px;
+  padding: 68px 34px 54px;
+  border: 1px solid rgba(255,255,255,.075);
+  border-radius: 28px;
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(139,99,255,.075), transparent 58%),
+    linear-gradient(180deg, rgba(255,255,255,.025), rgba(255,255,255,.008));
+}
+.notepad-heading {
+  max-width: 620px;
+  margin: 0 auto 34px;
+  text-align: center;
+}
+.notepad-heading .eyebrow { margin-bottom: 13px; }
+.notepad-heading h2 {
+  margin: 0;
+  font-size: clamp(2.15rem, 4vw, 3.15rem);
+}
+.notepad-heading h2 span { color: var(--accent-light); }
+.notepad-heading > p:last-child {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: .96rem;
+}
+.notepad-showcase .preview {
+  width: min(100%, 820px);
+  margin-inline: auto;
+}
+.notepad-showcase .preview-stage,
+.notepad-showcase .preview-desktop { padding: 0; }
+.notepad-showcase .preview-main img {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 620px) {
+  .notepad-showcase {
+    width: calc(100% - 32px);
+    margin: 0 auto 68px;
+    padding: 42px 16px 24px;
+    border-radius: 21px;
+  }
+  .notepad-heading { margin-bottom: 24px; }
+  .notepad-heading > p:last-child { font-size: .88rem; }
+  .notepad-showcase .preview { width: 100%; }
+}
