@@ -547,3 +547,76 @@ h1 span, h2 span { color: var(--text); }
   .notepad-heading > p:last-child { font-size: .88rem; }
   .notepad-showcase .preview { width: 100%; }
 }
+
+
+/* Minimal, blank.page-inspired Notepad presentation. */
+.notepad-showcase {
+  width: min(100%, 1040px);
+  margin: 8px auto 96px;
+  padding: 54px 26px 28px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+.notepad-heading {
+  max-width: 760px;
+  margin: 0 auto 25px;
+  text-align: left;
+}
+.notepad-heading .eyebrow { margin-bottom: 10px; font-size: .65rem; }
+.notepad-heading h2 { font-size: clamp(1.8rem, 3vw, 2.55rem); letter-spacing: -.055em; }
+.notepad-heading > p:last-child { margin-top: 8px; font-size: .88rem; }
+.notepad-showcase .preview {
+  width: min(100%, 760px);
+  margin-inline: auto;
+}
+.notepad-showcase .preview-main { position: relative; }
+.notepad-showcase .preview-main img { display: block; width: 100%; height: auto; }
+/* The original toolbar is baked into the screenshot; mask its large buttons
+   and place a compact, crisp HTML toolbar in the same position. */
+.notepad-showcase .preview-main::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 1.1%;
+  top: 21.85%;
+  width: 14.4%;
+  height: 4.55%;
+  background: #1f1f22;
+  pointer-events: none;
+}
+.notepad-showcase .preview-format-toolbar {
+  position: absolute;
+  z-index: 2;
+  left: 1.6%;
+  top: 22.25%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0;
+  min-height: 0;
+  color: #d8d7dd;
+  font-size: 10px;
+  line-height: 1;
+}
+.notepad-showcase .preview-format-toolbar span {
+  display: grid;
+  place-items: center;
+  width: 17px;
+  height: 17px;
+  min-width: 0;
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 4px;
+  background: #303034;
+}
+@media (max-width: 620px) {
+  .notepad-showcase {
+    width: calc(100% - 32px);
+    margin-bottom: 64px;
+    padding: 38px 0 18px;
+  }
+  .notepad-heading { margin-bottom: 18px; }
+  .notepad-showcase .preview { width: 100%; }
+  .notepad-showcase .preview-format-toolbar { gap: 3px; }
+  .notepad-showcase .preview-format-toolbar span { width: 14px; height: 14px; font-size: 8px; }
+}
